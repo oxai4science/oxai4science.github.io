@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://oxai4science.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://oxai4science.github.io/" rel="alternate" type="text/html" /><updated>2024-10-21T20:41:42+00:00</updated><id>https://oxai4science.github.io/feed.xml</id><title type="html">Oxford AI for Science Lab</title><subtitle>The Oxford AI for Science lab is a part of the Department of Computer Science at the University of Oxford, and is led by Atılım Güneş Baydin. The lab specializes in probabilistic machine learning and its applications in scientific discovery. We collaborate with experts in disciplines including high-energy physics, heliophysics, astrobiology, Earth science, and computational social science. Highlights of our work include supercomputing-scale Bayesian inference in simulators of the Standard Model of particle physics, new calibration techniques for the NASA Solar Dynamics Observatory, and deploying machine learning algorithms onboard spacecraft launched to Earth orbit.
+</subtitle><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author><entry><title type="html">Inferring molecular complexity and looking for life using machine learning</title><link href="https://oxai4science.github.io/2022/08/01/molecular-complexity.html" rel="alternate" type="text/html" title="Inferring molecular complexity and looking for life using machine learning" /><published>2022-08-01T00:00:00+00:00</published><updated>2022-08-01T00:00:00+00:00</updated><id>https://oxai4science.github.io/2022/08/01/molecular-complexity</id><content type="html" xml:base="https://oxai4science.github.io/2022/08/01/molecular-complexity.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Timothy D. Gebhard (ETH Zurich)</li>
+  <li>Aaron C. Bell (Insight Edge)</li>
+  <li>Jian Gong (MIT)</li>
+  <li>Jaden J. A. Hastings (XO.LABS)</li>
+  <li>Matthew Fricke (University of New Mexico)</li>
+  <li>Nathalie Cabrol (SETI Institute)</li>
+  <li>Scott Sandford (NASA Ames Research Center)</li>
+  <li>Michael Phillips (Johns Hopkins University Applied Physics Laboratory)</li>
+  <li>Kimberley Warren-Rhodes (SETI Institute)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Molecular complexity has been proposed as a potential agnostic biosignature — in other words: a way to search for signs of life beyond Earth without relying on “life as we know it.” More than one way to compute molecular complexity has been proposed, so comparing their performance in evaluating experimental data collected in situ, such as on board a probe or rover exploring another planet, is imperative. Here, we report the results of an attempt to deploy multiple machine learning (ML) techniques to predict molecular complexity scores directly from mass spectrometry data. Our initial results are encouraging and may provide fruitful guidance toward determining which complexity measures are best suited for use with experimental data. Beyond the search for signs of life, this approach is likewise valuable for studying the chemical composition of samples to assist decisions made by the rover or probe, and may thus contribute toward supporting the need for greater autonomy.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="gebhard-2022-molecular">Gebhard, Timothy D., Aaron Bell, Jian Gong, Jaden J.A. Hastings, George M. Fricke, Nathalie Cabrol, Scott Sandford, Michael Phillips, Kimberley Warren-Rhodes, and Atılım Güneş Baydin. 2022. “Inferring Molecular Complexity from Mass Spectrometry Data Using Machine Learning.” In <i>Machine Learning and the Physical Sciences Workshop, NeurIPS 2022</i>.</span>
+
+<span id="gebhard-2022-molecular_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#gebhard-2022-molecular_abstract" data-toggle="collapse" href="#gebhard-2022-molecular" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#gebhard-2022-molecular_bibtex" data-toggle="collapse" href="#gebhard-2022-molecular" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'gebhard-2022-molecular']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/gebhard-2022-molecular.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'gebhard-2022-molecular']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="gebhard-2022-molecular_abstract" class="pre pre-scrollable collapse">Molecular complexity has been proposed as a potential agnostic biosignature – in other words: a way to search for signs of life beyond Earth without relying on “life as we know it.” More than one way to compute molecular complexity has been proposed, so comparing their performance in evaluating experimental data collected in situ, such as on board a probe or rover exploring another planet, is imperative. Here, we report the results of an attempt to deploy multiple machine learning (ML) techniques to predict molecular complexity scores directly from mass spectrometry data. Our initial results are encouraging and may provide fruitful guidance toward determining which complexity measures are best suited for use with experimental data. Beyond the search for signs of life, this approach is likewise valuable for studying the chemical composition of samples to assist decisions made by the rover or probe, and may thus contribute toward supporting the need for greater autonomy.</p>
+  
+
+  <pre id="gebhard-2022-molecular_bibtex" class="pre pre-scrollable collapse">@inproceedings{gebhard-2022-molecular,
+  title = {Inferring molecular complexity from mass spectrometry data using machine learning},
+  author = {Gebhard, Timothy D. and Bell, Aaron and Gong, Jian and Hastings, Jaden J.A. and Fricke, George M. and Cabrol, Nathalie and Sandford, Scott and Phillips, Michael and Warren-Rhodes, Kimberley and Baydin, {Atılım Güneş}},
+  booktitle = {Machine Learning and the Physical Sciences workshop, NeurIPS 2022},
+  year = {2022}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="gong-2022-molecular">Gong, Jian, Aaron C. Bell, Timothy Gebhard, Jaden J.A. Hastings, Atılım Güneş Baydin, Kimberly Warren-Rhodes, Michael Phillips, Matthew Fricke, Nathalie A. Cabrol, Scott A. Sandford, and Massimo Mascaro. 2022. “Molecular Complexity to Biosignatures: A Machine Learning Pipeline That Connects Mass Spectrometry to Molecular Synthesis and Reaction Networks.” In <i>American Geophysical Union (AGU) Fall Meeting, December 12–16, 2022</i>. https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1186669.</span>
+
+<span id="gong-2022-molecular_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#gong-2022-molecular_abstract" data-toggle="collapse" href="#gong-2022-molecular" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#gong-2022-molecular_bibtex" data-toggle="collapse" href="#gong-2022-molecular" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'gong-2022-molecular']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="gong-2022-molecular_abstract" class="pre pre-scrollable collapse">The search for life beyond Earth is complicated by the lack of a consensus on what life is – especially when considering potential forms of life not resembling anything known on Earth. Agnostic means of assessing samples for evidence of life are needed to address this challenge. Information encoded within the atoms and bonds of a molecule can be used to generate agnostic metrics of complexity. The distributions of complexity metrics for chemical mixtures involving biological processes have been hypothesized to be different from those produced by abiotic or prebiotic chemical reactions (Marshall et al. 2021). Complexity metrics, rooted in Shannon Entropy (Bertz 1981; Böttcher 2016) and Assembly Theory (Marshall et al., 2017, 2021), rely on knowledge of the precise structures of molecules and time-consuming human-expert-based analysis decoupled from real-time instrumental measurements onboard robotic missions. In addition, leveraging these metrics requires intensive – often intractable – computations that are infeasible for real-time, on-probe investigations. We propose light-weight, flexible neural network models, trainable from publicly available datasets that can be employed to predict molecular structures and their complexity metrics from mass spectra. We show that with careful selection of datasets, the ML-based approach can learn characteristics of experimental data and digital representation of molecules. This enables rapid, accurate prediction of molecular complexity from mass spectra. Such data pipelines may open new doors for critical robotic missions where autonomous decision-making is required, empowering rapid biosignature screening tasks and in situ fingerprinting of prebiotic molecular reaction networks.</p>
+  
+
+  <pre id="gong-2022-molecular_bibtex" class="pre pre-scrollable collapse">@inproceedings{gong-2022-molecular,
+  title = {Molecular Complexity to Biosignatures: A Machine Learning Pipeline that Connects Mass Spectrometry to Molecular Synthesis and Reaction Networks},
+  author = {Gong, Jian and Bell, Aaron C. and Gebhard, Timothy and Hastings, Jaden J.A. and Baydin, Atılım Güneş and Warren-Rhodes, Kimberly and Phillips, Michael and Fricke, Matthew and Cabrol, Nathalie A. and Sandford, Scott A. and Mascaro, Massimo},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 12--16, 2022},
+  year = {2022},
+  url = {https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1186669}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="hastings-2022-molecular">Hastings, Jaden J.A., Aaron C. Bell, Timothy Gebhard, Jian Gong, Atılım Güneş Baydin, Matthew Fricke, Massimo Mascaro, Michael Phillips, Kimberly Warren-Rhodes, and Nathalie A. Cabrol. 2022. “Modeling Molecular Complexity: Building a Novel Multidisciplinary Machine Learning Framework to Understand Molecular Synthesis and Signatures.” In <i>American Geophysical Union (AGU) Fall Meeting, December 12–16, 2022</i>. https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1200601.</span>
+
+<span id="hastings-2022-molecular_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#hastings-2022-molecular_abstract" data-toggle="collapse" href="#hastings-2022-molecular" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#hastings-2022-molecular_bibtex" data-toggle="collapse" href="#hastings-2022-molecular" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'hastings-2022-molecular']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="hastings-2022-molecular_abstract" class="pre pre-scrollable collapse">The ability to analyze and compare the structure of every known molecule, let alone molecules not yet encountered, and be able to predict all the possible synthesis pathways to be able to build ever more complex molecules at the atomic scale is a bottleneck spanning multiple disciplines. These span the fundamental and applied sciences – from organic synthesis of novel pharmaceuticals to detecting biosignatures on distant planets. Fundamental to this effort is the identification and standardization of key features of complexity and generating datasets optimized for machine learning methods. Connecting molecules and their complexity measures within vast chemical synthesis and reaction networks is similarly promising.The Molecular Complexity Consortium (MCC) – a working group of subject matter experts across academic, government, and commercial sectors – advances both applied and theoretical research in molecular complexity. We argue key shared objectives for unlocking the vast potential of ML-driven modeling of molecular complexity: the requisite standardization of features, generation of well-curated training datasets, and optimization of computation by ML method selection. Here we offer an overview of the field of molecular complexity, from methods of mathematical modeling to forming a notion of molecular signatures, and pose a call to action as we seek out new avenues for collaboration in this exciting emergent field.</p>
+  
+
+  <pre id="hastings-2022-molecular_bibtex" class="pre pre-scrollable collapse">@inproceedings{hastings-2022-molecular,
+  title = {Modeling Molecular Complexity: Building a Novel Multidisciplinary Machine Learning Framework to Understand Molecular Synthesis and Signatures},
+  author = {Hastings, Jaden J.A. and Bell, Aaron C. and Gebhard, Timothy and Gong, Jian and Baydin, Atılım Güneş and Fricke, Matthew and Mascaro, Massimo and Phillips, Michael and Warren-Rhodes, Kimberly and Cabrol, Nathalie A.},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 12--16, 2022},
+  year = {2022},
+  url = {https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1200601}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This work was enabled by and carried out during an eight-week research sprint as part of the Frontier Development Lab (FDL), a public-private partnership between NASA, the U.S. Department of Energy, the SETI Institute, Trillium Technologies, and leaders in commercial AI, space exploration, and Earth sciences, formed with the purpose of advancing the application of machine learning, data science, and high performance computing to problems of material concern to humankind. We thank Google Cloud and the University of New Mexico Center for Advanced Research Computing for providing the compute resources critical to completing this work. GMF was funded by NASA Astrobiology NfoLD grant #80NSSC18K1140. We also thank the Cronin Group at the University of Glasgow for their collaboration, and for providing us with the code for computing MA values.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Probabilistic models of inauthentic behavior in social networks</title><link href="https://oxai4science.github.io/2022/07/23/social-networks.html" rel="alternate" type="text/html" title="Probabilistic models of inauthentic behavior in social networks" /><published>2022-07-23T00:00:00+00:00</published><updated>2022-07-23T00:00:00+00:00</updated><id>https://oxai4science.github.io/2022/07/23/social-networks</id><content type="html" xml:base="https://oxai4science.github.io/2022/07/23/social-networks.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Swapneel Mehta (New York University)</li>
+  <li>Bogdan State (Scie.nz)</li>
+  <li>Richard Bonneau (New York University)</li>
+  <li>Jonathan Nagler (New York University)</li>
+  <li>Philip Torr (University of Oxford)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Online disinformation is a dynamic and pervasive problem on social networks as evidenced by a spate of public disasters in light of active efforts to combat it. Since the massive amounts of content generated each day on these platforms is impossible to manually curate, ranking and recommendation algorithms are a key apparatus that drive user interactions. However, the vulnerability of ranking and recommendation algorithms to attack from coordinated campaigns spreading misleading information has been established both theoretically and anecdotally. Unfortunately it is unclear how effective countermeasures to disinformation are in practice due to the limited view we have into the operation of such platforms. In such settings, simulations have emerged as a popular technique to study the long-term effects of content ranking and recommendation systems. We develop a multiagent simulation of a popular social network, Reddit, that aligns with the state–action space available to real users based on the platform’s affordances. We collect millions of real-world interactions from Reddit to estimate the network for each user in our dataset and utilise Reddit’s self-described content ranking strategies to compare the impact of coordinated activity on content spread by each strategy. We expect that this will inform the design of robust content distribution systems that are resilient against targeted attacks by groups of malicious actors.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="mehta-2022-inauthentic">Mehta, Swapneel, Bogdan State, Richard Bonneau, Jonathan Nagler, Philip Torr, and Atılım Güneş Baydin. 2022. “Estimating the Impact of Coordinated Inauthentic Behavior on Content Recommendations in Social Networks.” In <i>AI for Agent-Based Modelling Workshop (AI4ABM) at the International Conference on Machine Learning (ICML) 2022</i>.</span>
+
+<span id="mehta-2022-inauthentic_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#mehta-2022-inauthentic_abstract" data-toggle="collapse" href="#mehta-2022-inauthentic" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#mehta-2022-inauthentic_bibtex" data-toggle="collapse" href="#mehta-2022-inauthentic" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'mehta-2022-inauthentic']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="mehta-2022-inauthentic_abstract" class="pre pre-scrollable collapse">Online disinformation is a dynamic and pervasive problem on social networks as evidenced by a spate of public disasters in light of active efforts to combat it. Since the massive amounts of content generated each day on these platforms is impossible to manually curate, ranking and recommendation algorithms are a key apparatus that drive user interactions. However, the vulnerability of ranking and recommendation algorithms to attack from coordinated campaigns spreading misleading information has been established both theoretically and anecdotally. Unfortunately it is unclear how effective countermeasures to disinformation are in practice due to the limited view we have into the operation of such platforms. In such settings, simulations have emerged as a popular technique to study the long-term effects of content ranking and recommendation systems. We develop a multiagent simulation of a popular social network, Reddit, that aligns with the state–action space available to real users based on the platform’s affordances. We collect millions of real-world interactions from Reddit to estimate the network for each user in our dataset and utilise Reddit’s self-described content ranking strategies to compare the impact of coordinated activity on content spread by each strategy. We expect that this will inform the design of robust content distribution systems that are resilient against targeted attacks by groups of malicious actors.</p>
+  
+
+  <pre id="mehta-2022-inauthentic_bibtex" class="pre pre-scrollable collapse">@inproceedings{mehta-2022-inauthentic,
+  title = {Estimating the Impact of Coordinated Inauthentic Behavior on Content Recommendations in Social Networks},
+  author = {Mehta, Swapneel and State, Bogdan and Bonneau, Richard and Nagler, Jonathan and Torr, Philip and Baydin, {Atılım Güneş}},
+  booktitle = {AI for Agent-Based Modelling Workshop (AI4ABM) at the International Conference on Machine Learning (ICML) 2022},
+  year = {2022}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="mehta-2022-simulation">Mehta, Swapneel, Bogdan State, Richard Bonneau, Jonathan Nagler, Philip Torr, and Atılım Güneş Baydin. 2022. “Simulating Social Networks and Disinformation.” In <i>Misinformation Village Co-Hosted by MisinfoCon, DEFCON 30, August 12–13, Las Vegas, NV, USA</i>. https://defcon.misinfocon.com/.</span>
+
+<span id="mehta-2022-simulation_materials">
+  <ul class="nav nav-pills">
+    
+
+    <li><a class="bib-materials" data-target="#mehta-2022-simulation_bibtex" data-toggle="collapse" href="#mehta-2022-simulation" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'mehta-2022-simulation']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+
+  <pre id="mehta-2022-simulation_bibtex" class="pre pre-scrollable collapse">@inproceedings{mehta-2022-simulation,
+  title = {Simulating Social Networks and Disinformation},
+  author = {Mehta, Swapneel and State, Bogdan and Bonneau, Richard and Nagler, Jonathan and Torr, Philip and Baydin, Atılım Güneş},
+  booktitle = {Misinformation Village co-hosted by {MisinfoCon}, {DEFCON} 30, August 12--13, Las Vegas, NV, USA},
+  year = {2022},
+  url = {https://defcon.misinfocon.com/}
+}
+</pre>
+
+</span>
+
+</li></ol>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">KARMAN: Benchmarking thermospheric density models and direct solar imaging</title><link href="https://oxai4science.github.io/2022/04/01/nasa-benchmarks.html" rel="alternate" type="text/html" title="KARMAN: Benchmarking thermospheric density models and direct solar imaging" /><published>2022-04-01T00:00:00+00:00</published><updated>2022-04-01T00:00:00+00:00</updated><id>https://oxai4science.github.io/2022/04/01/nasa-benchmarks</id><content type="html" xml:base="https://oxai4science.github.io/2022/04/01/nasa-benchmarks.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Giacomo Acciarini (University of Surrey)</li>
+  <li>Edward Brown (University of Cambridge)</li>
+  <li>Stefano Bonasera (UC Boulder)</li>
+  <li>Jorge A. Pérez-Hernández (Mexico National Autonomous University)</li>
+  <li>Bernard Benson (University of Alabama Huntsville)</li>
+  <li>Eric Sutton (UC Boulder)</li>
+  <li>Moriba K. Jah (University of Texas, Austin)</li>
+  <li>Christopher Bridges (University of Surrey)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Accurately estimating spacecraft location is of crucial importance for a variety of safety-critical tasks in low-Earth orbit (LEO), including satellite collision avoidance and re-entry. The solar activity largely impacts the physical characteristics of the thermosphere, consequently affecting the trajectories of spacecraft in LEO. Stateof-the-art models for estimating thermospheric  ensity are either computationally expensive or under-perform during extreme solar activity. Moreover, these models provide single-point solutions, neglecting critical information on the associated uncertainty. In this work we use and compare two methods, Monte Carlo dropout and deep ensembles, to estimate thermospheric total mass density and associated uncertainty. The networks are trained using ground-truth density data from five wellcalibrated satellites, using orbital data information, solar and geomagnetic indices as input. The trained models improve for a subset of  atellites upon operational solutions, also providing a measure of uncertainty in the density estimation.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="bonasera-2021-ensemble">Bonasera, Stefano, Giacomo Acciarini, Jorge A. Pérez-Hernández, Bernard Benson, Edward Brown, Eric Sutton, Moriba K. Jah, Christopher Bridges, and Atılım Güneş Baydin. 2021. “Dropout and Ensemble Networks for Thermospheric Density Uncertainty Estimation.” In <i>Bayesian Deep Learning Workshop, NeurIPS 2021</i>.</span>
+
+<span id="bonasera-2021-ensemble_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#bonasera-2021-ensemble_abstract" data-toggle="collapse" href="#bonasera-2021-ensemble" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#bonasera-2021-ensemble_bibtex" data-toggle="collapse" href="#bonasera-2021-ensemble" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'bonasera-2021-ensemble']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/bonasera-2021-ensemble.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'bonasera-2021-ensemble']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="bonasera-2021-ensemble_abstract" class="pre pre-scrollable collapse">Accurately estimating spacecraft location is of crucial importance for a variety of safety-critical tasks in low-Earth orbit (LEO), including satellite collision avoidance and re-entry. The solar activity largely impacts the physical characteristics of the thermosphere, consequently affecting the trajectories of spacecraft in LEO. Stateof-the-art models for estimating thermospheric density are either computationally expensive or under-perform during extreme solar activity. Moreover, these models provide single-point solutions, neglecting critical information on the associated uncertainty. In this work we use and compare two methods, Monte Carlo dropout and deep ensembles, to estimate thermospheric total mass density and associated uncertainty. The networks are trained using ground-truth density data from five wellcalibrated satellites, using orbital data information, solar and geomagnetic indices as input. The trained models improve for a subset of satellites upon operational solutions, also providing a measure of uncertainty in the density estimation.</p>
+  
+
+  <pre id="bonasera-2021-ensemble_bibtex" class="pre pre-scrollable collapse">@inproceedings{bonasera-2021-ensemble,
+  title = {Dropout and Ensemble Networks for Thermospheric Density Uncertainty Estimation},
+  author = {Bonasera, Stefano and Acciarini, Giacomo and {Pérez-Hernández}, Jorge A. and Benson, Bernard and Brown, Edward and Sutton, Eric and Jah, Moriba K. and Bridges, Christopher and Baydin, {Atılım Güneş}},
+  booktitle = {Bayesian Deep Learning workshop, {NeurIPS} 2021},
+  year = {2021}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="brown-2021-learning">Brown, Edward, Stefano Bonasera, Bernard Benson, Jorge A. Pérez-Hernández, Giacomo Acciarini, Atılım Güneş Baydin, Christopher Bridges, Meng Jin, Eric Sutton, and Moriba K. Jah. 2021. “Learning the Solar Latent Space: Sigma-Variational Autoencoders for Multiple Channel Solar Imaging.” In <i>Fourth Workshop on Machine Learning and the Physical Sciences (NeurIPS 2021)</i>.</span>
+
+<span id="brown-2021-learning_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#brown-2021-learning_abstract" data-toggle="collapse" href="#brown-2021-learning" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#brown-2021-learning_bibtex" data-toggle="collapse" href="#brown-2021-learning" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'brown-2021-learning']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/brown-2021-learning.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'brown-2021-learning']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="brown-2021-learning_abstract" class="pre pre-scrollable collapse">This study uses a sigma-variational autoencoder to learn a latent space of solar images using the 12 channels taken by Atmospheric Imaging Assembly (AIA) and the Helioseismic and Magnetic Imager (HMI) instruments on-board the NASA Solar Dynamics Observatory. The model is able to significantly compress the large image dataset to 0.19% of its original size while still proficiently reconstructing the original images. As a downstream task making use of the learned representation, this study demonstrates the of use the learned latent space as an input to improve the forecasts of the F30 solar radio flux index, compared to an off-the-shelf pretrained ResNet feature extractor. Finally, the developed models can be used to generate realistic synthetic solar images by sampling from the learned latent space.</p>
+  
+
+  <pre id="brown-2021-learning_bibtex" class="pre pre-scrollable collapse">@inproceedings{brown-2021-learning,
+  title = {Learning the solar latent space: sigma-variational autoencoders for multiple channel solar imaging},
+  author = {Brown, Edward and Bonasera, Stefano and Benson, Bernard and {Pérez-Hernández}, Jorge A. and Acciarini, Giacomo and Baydin, {Atılım Güneş} and Bridges, Christopher and Jin, Meng and Sutton, Eric and Jah, Moriba K.},
+  booktitle = {Fourth Workshop on Machine Learning and the Physical Sciences ({NeurIPS} 2021)},
+  year = {2021}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="benson-2021-simultaneous">Benson, Bernard, Edward Brown, Stefano Bonasera, Giacomo Acciarini, Jorge A. Pérez-Hernández, Eric Sutton, Moriba K. Jah, Christopher Bridges, Meng Jin, and Atılım Güneş Baydin. 2021. “Simultaneous Multivariate Forecast of Space Weather Indices Using Deep Neural Network Ensembles.” In <i>Fourth Workshop on Machine Learning and the Physical Sciences (NeurIPS 2021)</i>.</span>
+
+<span id="benson-2021-simultaneous_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#benson-2021-simultaneous_abstract" data-toggle="collapse" href="#benson-2021-simultaneous" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#benson-2021-simultaneous_bibtex" data-toggle="collapse" href="#benson-2021-simultaneous" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'benson-2021-simultaneous']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/benson-2021-simultaneous.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'benson-2021-simultaneous']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="benson-2021-simultaneous_abstract" class="pre pre-scrollable collapse">Solar radio flux along with geomagnetic indices are important indicators of solar activity and its effects. Extreme solar events such as flares and geomagnetic storms can negatively affect the space environment including satellites in low-Earth orbit. Therefore, forecasting these space weather indices is of great importance in space operations and science. In this study, we propose a model based on long shortterm memory neural networks to learn the distribution of time series data with the capability to provide a simultaneous multivariate 27-day forecast of the space weather indices using time series as well as solar image data. We show a 30–40% improvement of the root mean-square error while including solar image data with time series data compared to using time series data alone. Simple baselines such as a persistence and running average forecasts are also compared with the trained deep neural network models. We also quantify the uncertainty in our prediction using a model ensemble.</p>
+  
+
+  <pre id="benson-2021-simultaneous_bibtex" class="pre pre-scrollable collapse">@inproceedings{benson-2021-simultaneous,
+  title = {Simultaneous Multivariate Forecast of Space Weather Indices using Deep Neural Network Ensembles},
+  author = {Benson, Bernard and Brown, Edward and Bonasera, Stefano and Acciarini, Giacomo and {Pérez-Hernández}, Jorge A. and Sutton, Eric and Jah, Moriba K. and Bridges, Christopher and Jin, Meng and Baydin, {Atılım Güneş}},
+  booktitle = {Fourth Workshop on Machine Learning and the Physical Sciences ({NeurIPS} 2021)},
+  year = {2021}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This work has been enabled by the Frontier Development Lab (FDL.ai). FDL is a co-operative agreement between NASA, the SETI Institute (seti.org), and Trillium Technologies Inc, in partnership  with Google Cloud and Intel. We would like to thank Drs. L. Guhathakurta, M. Jin, J. van den Ijssel, E. Doornbos, A. Muñoz-Jaramillo, A. Vourlidas, I. Telezhinsky, and T.S. Kelso for sharing their technical expertise and James Parr, Jodie Hughes, and Belina Raffy for their support.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Seismic Savanna: Classifying wildlife and behaviors using vibration data</title><link href="https://oxai4science.github.io/2021/09/13/seismic-savanna.html" rel="alternate" type="text/html" title="Seismic Savanna: Classifying wildlife and behaviors using vibration data" /><published>2021-09-13T00:00:00+00:00</published><updated>2021-09-13T00:00:00+00:00</updated><id>https://oxai4science.github.io/2021/09/13/seismic-savanna</id><content type="html" xml:base="https://oxai4science.github.io/2021/09/13/seismic-savanna.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Alexandre Szenicer (University of Oxford)</li>
+  <li>Michael Reinwald (University of Oxford)</li>
+  <li>Ben Moseley (University of Oxford)</li>
+  <li>Tarje Nissen-Meyer (University of Oxford)</li>
+  <li>Zacharia Mutinda Muteti (Mpala Research Centre, Kenya)</li>
+  <li>Sandy Oduor (Mpala Research Centre, Kenya)</li>
+  <li>Alex McDermott-Roberts (University of Oxford)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+  <li>Beth Mortimer (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We develop a machine learning approach to detect and discriminate elephants from other species, and to recognise important behaviours such as running and rumbling, based only on seismic data generated by the animals. We demonstrate our approach using data acquired in the Kenyan savanna, consisting of 8000 hours seismic recordings and 250k camera trap pictures. Our classifiers, different convolutional neural networks trained on seismograms and spectrograms, achieved 80–90% balanced accuracy in detecting elephants up to 100 meters away, and over 90% balanced accuracy in recognising running and rumbling behaviours from the seismic data. We release the dataset used in this study: SeisSavanna represents a unique collection of seismic signals with the associated wildlife species and behaviour. Our results suggest that seismic data offer substantial benefits for monitoring wildlife, and we propose to further develop our methods using dense arrays that could result in a seismic shift for wildlife monitoring.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="szenicer-2021-seismic">Szenicer, Alexandre, Michael Reinwald, Ben Moseley, Tarje Nissen-Meyer, Zacharia Mutinda Muteti, Sandy Oduor, Alex McDermott-Roberts, Atılım Güneş Baydin, and Beth Mortimer. 2021. “Seismic Savanna: Machine Learning for Classifying Wildlife and Behaviours Using Ground-Based Vibration Field Recordings.” <i>Remote Sensing in Ecology and Conservation</i> 8 (2). John Wiley &amp; Sons and Zoological Society of London: 236–250. doi:10.1002/rse2.242.</span>
+
+<span id="szenicer-2021-seismic_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#szenicer-2021-seismic_abstract" data-toggle="collapse" href="#szenicer-2021-seismic" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#szenicer-2021-seismic_bibtex" data-toggle="collapse" href="#szenicer-2021-seismic" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'szenicer-2021-seismic']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/szenicer-2021-seismic.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'szenicer-2021-seismic']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="szenicer-2021-seismic_abstract" class="pre pre-scrollable collapse">We develop a machine learning approach to detect and discriminate elephants from other species, and to recognise important behaviours such as running and rumbling, based only on seismic data generated by the animals. We demonstrate our approach using data acquired in the Kenyan savanna, consisting of 8000 hours seismic recordings and 250k camera trap pictures. Our classifiers, different convolutional neural networks trained on seismograms and spectrograms, achieved 80–90%  balanced accuracy in detecting elephants up to 100 meters away, and over 90% balanced accuracy in recognising running and rumbling behaviours from the seismic data. We release the dataset used in this study: SeisSavanna represents a unique collection of seismic signals with the associated wildlife species and behaviour. Our results suggest that seismic data offer substantial benefits for monitoring wildlife, and we propose to further develop our methods using dense arrays that could result in a seismic shift for wildlife monitoring.</p>
+  
+
+  <pre id="szenicer-2021-seismic_bibtex" class="pre pre-scrollable collapse">@article{szenicer-2021-seismic,
+  title = {Seismic savanna: Machine learning for classifying wildlife and behaviours using ground-based vibration field recordings},
+  author = {Szenicer, Alexandre and Reinwald, Michael and Moseley, Ben and {Nissen-Meyer}, Tarje and Muteti, Zacharia Mutinda and Oduor, Sandy and {McDermott-Roberts}, Alex and Baydin, Atılım Güneş and Mortimer, Beth},
+  journal = {Remote Sensing in Ecology and Conservation},
+  publisher = {John Wiley &amp; Sons and Zoological Society of London},
+  year = {2021},
+  volume = {8},
+  number = {2},
+  pages = {236--250},
+  url = {https://doi.org/10.1002/rse2.242},
+  doi = {10.1002/rse2.242}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>We would like to express our gratitude to all the staff at the Mpala Research Centre for assisting with fieldwork operations and for creating a warm and welcoming environment, in particular Dino Martins and Cosmas Nzomo. We thank Frank Pope and staff at Save the Elephants for help getting research permits and Kenyan Wildlife Service affiliations, and Paula Koelemeijer for help with sensor deployment. A. Szenicer thanks the anonymous donor of his PhD grant. We thank National Geographic (NGS50019R-18), Royal Society (URF R1 191033), John Fell Oxford University Press Research Fund, Royal Commission for the Exhibition of 1851 for funding. This research has been supported by the Centre for Doctoral Training in Autonomous Intelligent Machines and Systems at the University of Oxford, Oxford, UK, and the UK Engineering and Physical Sciences Research Council. A. G. Baydin is supported by EPSRC/MURI grant EP/N019474/1 and by Lawrence Berkeley National Lab.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Worldfloods: Machine learning for disaster detection deployed in space</title><link href="https://oxai4science.github.io/2021/06/29/worldfloods.html" rel="alternate" type="text/html" title="Worldfloods: Machine learning for disaster detection deployed in space" /><published>2021-06-29T00:00:00+00:00</published><updated>2021-06-29T00:00:00+00:00</updated><id>https://oxai4science.github.io/2021/06/29/worldfloods</id><content type="html" xml:base="https://oxai4science.github.io/2021/06/29/worldfloods.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Gonzalo Mateo-Garcia (Universidad de Valencia)</li>
+  <li>Joshua Veitch-Michaelis (Liverpool John Moores University)</li>
+  <li>Lewis Smith (University of Oxford)</li>
+  <li>Silviu Oprea (University of Edinburgh)</li>
+  <li>Guy Schumann (University of Bristol)</li>
+  <li>Yarin Gal (University of Oxford)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+  <li>Dietmar Backes (University of Luxembourg)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Spaceborne Earth observation is a key technology for food response, ofering valuable information to decision makers on the ground. Very large constellations of small, nano satellites— ’CubeSats’ are a promising solution to reduce revisit time in disaster areas from days to hours. However, data transmission to ground receivers is limited by constraints on power and bandwidth of CubeSats. Onboard processing ofers a solution to decrease the amount of data to transmit by reducing large sensor images to smaller data products. The ESA’s recent PhiSat-1 mission aims to facilitate the demonstration of this concept, providing the hardware capability to perform onboard processing by including a power-constrained machine learning accelerator and the software to run custom applications. This work demonstrates a food segmentation algorithm that produces food masks to be transmitted instead of the raw images, while running efciently on the accelerator aboard the PhiSat-1. Our models are trained on WorldFloods: a newly compiled dataset of 119 globally verifed fooding events from disaster response organizations, which we make available in a common format. We test the system on independent locations, demonstrating that it produces fast and accurate segmentation masks on the hardware accelerator, acting as a proof of concept for this approach.</p>
+
+<h2 id="press-releases-and-media-coverage">Press Releases and Media Coverage</h2>
+
+<ul>
+  <li>Jun 2021: <a href="https://www.ox.ac.uk/news/2021-06-29-artificial-intelligence-pioneered-oxford-detect-floods-launches-space">Artificial Intelligence pioneered at Oxford to detect floods launches into space</a>, University of Oxford front page</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/sSiuW1HcGjA?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="mateogarcia-2021-global">Mateo-Garcia, Gonzalo, Joshua Veitch-Michaelis, Lewis Smith, Silviu Oprea, Guy Schumann, Yarin Gal, Atılım Güneş Baydin, and Dietmar Backes. 2021. “Towards Global Flood Mapping Onboard Low Cost Satellites with Machine Learning.” <i>Scientific Reports</i> 11 (7249). Nature Publishing Group. doi:10.1038/s41598-021-86650-z.</span>
+
+<span id="mateogarcia-2021-global_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#mateogarcia-2021-global_abstract" data-toggle="collapse" href="#mateogarcia-2021-global" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#mateogarcia-2021-global_bibtex" data-toggle="collapse" href="#mateogarcia-2021-global" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'mateogarcia-2021-global']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/mateogarcia-2021-global.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'mateogarcia-2021-global']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="mateogarcia-2021-global_abstract" class="pre pre-scrollable collapse">Spaceborne Earth observation is a key technology for flood response, offering valuable information to decision makers on the ground. Very large constellations of small, nano satellites - ’CubeSats’ are a promising solution to reduce revisit time in disaster areas from days to hours. However, data transmission to ground receivers is limited by constraints on power and bandwidth of CubeSats. Onboard processing offers a solution to decrease the amount of data to transmit by reducing large sensor images to smaller data products. The ESA’s recent PhiSat-1 mission aims to facilitate the demonstration of this concept, providing the hardware capability to perform onboard processing by including a power-constrained machine learning accelerator and the software to run custom applications. This work demonstrates a flood segmentation algorithm that produces flood masks to be transmitted instead of the raw images, while running efficiently on the accelerator aboard the PhiSat-1. Our models are trained on \worldfloods: a newly compiled dataset of 119 globally verified flooding events from disaster response organizations, which we make available in a common format. We test the system on independent locations, demonstrating that it produces fast and accurate segmentation masks on the hardware accelerator, acting as a proof of concept for this approach.</p>
+  
+
+  <pre id="mateogarcia-2021-global_bibtex" class="pre pre-scrollable collapse">@article{mateogarcia-2021-global,
+  title = {Towards Global Flood Mapping Onboard Low Cost Satellites with Machine Learning},
+  author = {Mateo-Garcia, Gonzalo and Veitch-Michaelis, Joshua and Smith, Lewis and Oprea, Silviu and Schumann, Guy and Gal, Yarin and Baydin, Atılım Güneş and Backes, Dietmar},
+  journal = {Scientific Reports},
+  publisher = {Nature Publishing Group},
+  year = {2021},
+  volume = {11},
+  number = {7249},
+  doi = {10.1038/s41598-021-86650-z},
+  url = {https://doi.org/10.1038/s41598-021-86650-z}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="mateogarcia-2019-orbital">Mateo-Garcia, Gonzalo, Silviu Oprea, Lewis Smith, Joshua Veitch-Michaelis, Atılım Güneş Baydin, and Dietmar Backes. 2019. “Flood Detection On Low Cost Orbital Hardware.” In <i>Artificial Intelligence for Humanitarian Assistance and Disaster Response Workshop, 33rd Conference on Neural
+Information Processing Systems (NeurIPS 2019), Vancouver, Canada</i>.</span>
+
+<span id="mateogarcia-2019-orbital_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#mateogarcia-2019-orbital_abstract" data-toggle="collapse" href="#mateogarcia-2019-orbital" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#mateogarcia-2019-orbital_bibtex" data-toggle="collapse" href="#mateogarcia-2019-orbital" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'mateogarcia-2019-orbital']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/mateogarcia-2019-orbital.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'mateogarcia-2019-orbital']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="mateogarcia-2019-orbital_abstract" class="pre pre-scrollable collapse">Satellite imaging is a critical technology for monitoring and responding to natural disasters such as flooding. Despite the capabilities of modern satellites, there is still much to be desired from the perspective of first response organisations like UNICEF. Two main challenges are rapid access to data, and the ability to automatically identify flooded regions in images. We describe a prototypical flood segmentation system that could be deployed on a constellation of small satellites, performing processing on board to reduce downlink bandwidth by 2 orders of magnitude. We target PhiSat-1, part of the FSSCAT mission, which is planned to be launched by the European Space Agency (ESA) near the start of 2020 as a proof of concept for this new technology.</p>
+  
+
+  <pre id="mateogarcia-2019-orbital_bibtex" class="pre pre-scrollable collapse">@inproceedings{mateogarcia-2019-orbital,
+  title = {Flood Detection On Low Cost Orbital Hardware},
+  author = {{Mateo-Garcia}, Gonzalo and Oprea, Silviu and Smith, Lewis and {Veitch-Michaelis}, Joshua and Baydin, Atılım Güneş and Backes, Dietmar},
+  booktitle = {Artificial Intelligence for Humanitarian Assistance and Disaster Response Workshop, 33rd Conference on Neural
+  Information Processing Systems (NeurIPS 2019), Vancouver, Canada},
+  year = {2019}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>Tis research was conducted at the Frontier Development Lab (FDL), Europe, 2019 led by Trillium Technologies. Te authors gratefully acknowledge support from European Space Agency (ESA); Pierre-Philippe Mathieu and the team at PhiLab at ESA ESRIN; Google LLC; Intel Corporation; Kellogg College, University of Oxford; UNICEF representative Dohyung Kim.; James Parr, Jodie Hughes, Leo Silverberg and Sarah McGeehan from Trillium Technologies and other organisations and mentors who supported FDL Europe 2019. G.M.-G. has been supported by the Spanish Ministry of Science and Innovation (Projects TEC2016-77741-R and PID2019-109026RBI00, ERDF). S.O. is supported by the EPSRC Grant EP/L016427/1 and Te Financial Times. A.G.B. is supported by EPSRC/MURI Grant EP/N019474/1 and by Lawrence Berkeley National Lab. J.V.M. is supported by STFC/GCRF Grant ST/R002673/1.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Kessler: Probabilistic models for spacecraft collision avoidance</title><link href="https://oxai4science.github.io/2021/04/20/esa-collision-avoidance.html" rel="alternate" type="text/html" title="Kessler: Probabilistic models for spacecraft collision avoidance" /><published>2021-04-20T00:00:00+00:00</published><updated>2021-04-20T00:00:00+00:00</updated><id>https://oxai4science.github.io/2021/04/20/esa-collision-avoidance</id><content type="html" xml:base="https://oxai4science.github.io/2021/04/20/esa-collision-avoidance.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Giacomo Acciarini (University of Strathclyde)</li>
+  <li>Francesco Pinto (University of Oxford)</li>
+  <li>Sascha Metz (Technische Universitaet Darmstadt)</li>
+  <li>Sarah Boufelja (IBM)</li>
+  <li>Sylvester Kaczmarek (Imperial College London)</li>
+  <li>Klaus Merz (European Space Agency)</li>
+  <li>José A. Martinez-Heras (European Space Agency)</li>
+  <li>Francesca Letizia (European Space Agency)</li>
+  <li>Christopher Bridges (Surrey Space Centre)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>After decades of space travel, low Earth orbit is a junkyard of discarded rocket bodies, dead satellites, and millions of pieces of debris from collisions and explosions. Objects in high enough altitudes do not re-enter and burn up in the atmosphere, but stay in orbit around Earth for a long time. With a speed of 28,000 km/h, collisions in these orbits can generate fragments and potentially trigger a cascade of more collisions known as the Kessler syndrome. This could pose a planetary challenge, because the phenomenon could escalate to the point of hindering future space operations and damaging satellite infrastructure critical for space and Earth science applications. As commercial entities place mega-constellations of satellites in orbit, the burden on operators conducting collision avoidance manoeuvres will increase. For this reason, development of automated tools that predict potential collision events (conjunctions) is critical. We introduce a Bayesian deep learning approach to this problem, and develop recurrent neural network architectures (LSTMs) that work with time series of conjunction data messages (CDMs), a standard data format used by the space community. We show that our method can be used to model all CDM features simultaneously, including the time of arrival of future CDMs, providing predictions of conjunction event evolution with associated uncertainties.</p>
+
+<h2 id="video">Video</h2>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/5Gs9E2c7_qU?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="acciarini-2020-automated">Acciarini, Giacomo, Francesco Pinto, Sascha Metz, Sarah Boufelja, Sylvester Kaczmarek, Klaus Merz, José A. Martinez-Heras, Francesca Letizia, Christopher Bridges, and Atılım Güneş Baydin. 2021. “Kessler: a Machine Learning Library for Space Collision Avoidance.” In <i>8th European Conference on Space Debris</i>.</span>
+
+<span id="acciarini-2020-automated_materials">
+  <ul class="nav nav-pills">
+    
+
+    <li><a class="bib-materials" data-target="#acciarini-2020-automated_bibtex" data-toggle="collapse" href="#acciarini-2020-automated" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'acciarini-2020-automated']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+
+  <pre id="acciarini-2020-automated_bibtex" class="pre pre-scrollable collapse">@inproceedings{acciarini-2020-automated,
+  title = {Kessler: a Machine Learning Library for Space Collision Avoidance},
+  author = {Acciarini, Giacomo and Pinto, Francesco and Metz, Sascha and Boufelja, Sarah and Kaczmarek, Sylvester and Merz, Klaus and Martinez-Heras, José A. and Letizia, Francesca and Bridges, Christopher and Baydin, Atılım Güneş},
+  booktitle = {8th European Conference on Space Debris},
+  year = {2021}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="pinto-2020-automated">Pinto, Francesco, Giacomo Acciarini, Sascha Metz, Sarah Boufelja, Sylvester Kaczmarek, Klaus Merz, José A. Martinez-Heras, Francesca Letizia, Christopher Bridges, and Atılım Güneş Baydin. 2020. “Towards Automated Satellite Conjunction Management with Bayesian Deep Learning.” In <i>AI for Earth Sciences Workshop at NeurIPS 2020, Vancouver, Canada</i>.</span>
+
+<span id="pinto-2020-automated_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#pinto-2020-automated_abstract" data-toggle="collapse" href="#pinto-2020-automated" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#pinto-2020-automated_bibtex" data-toggle="collapse" href="#pinto-2020-automated" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'pinto-2020-automated']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/pinto-2020-automated.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'pinto-2020-automated']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="pinto-2020-automated_abstract" class="pre pre-scrollable collapse">After decades of space travel, low Earth orbit is a junkyard of discarded rocket bod-ies, dead satellites, and millions of pieces of debris from collisions and explosions.Objects in high enough altitudes do not re-enter and burn up in the atmosphere, butstay in orbit around Earth for a long time. With a speed of 28,000 km/h, collisionsin these orbits can generate fragments and potentially trigger a cascade of morecollisions known as the Kessler syndrome. This could pose a planetary challenge,because the phenomenon could escalate to the point of hindering future spaceoperations and damaging satellite infrastructure critical for space and Earth scienceapplications. As commercial entities place mega-constellations of satellites in orbit,the burden on operators conducting collision avoidance manoeuvres will increase.For this reason, development of automated tools that predict potential collisionevents (conjunctions) is critical. We introduce a Bayesian deep learning approachto this problem, and develop recurrent neural network architectures (LSTMs) thatwork with time series of conjunction data messages (CDMs), a standard data formatused by the space community.  We show that our method can be used to modelall CDM features simultaneously, including the time of arrival of future CDMs,providing predictions of conjunction event evolution with associated uncertainties.</p>
+  
+
+  <pre id="pinto-2020-automated_bibtex" class="pre pre-scrollable collapse">@inproceedings{pinto-2020-automated,
+  title = {Towards Automated Satellite Conjunction Management with Bayesian Deep Learning},
+  author = {Pinto, Francesco and Acciarini, Giacomo and Metz, Sascha and Boufelja, Sarah and Kaczmarek, Sylvester and Merz, Klaus and Martinez-Heras, José A. and Letizia, Francesca and Bridges, Christopher and Baydin, Atılım Güneş},
+  booktitle = {AI for Earth Sciences Workshop at NeurIPS 2020, Vancouver, Canada},
+  year = {2020}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="acciarini-2020-spacecraft">Acciarini, Giacomo, Francesco Pinto, Sascha Metz, Sarah Boufelja, Sylvester Kaczmarek, Klaus Merz, José A. Martinez-Heras, Francesca Letizia, Christopher Bridges, and Atılım Güneş Baydin. 2020. “Spacecraft Collision Risk Assessment with Probabilistic Programming.” In <i>Third Workshop on Machine Learning and the Physical Sciences (NeurIPS 2020), Vancouver, Canada</i>.</span>
+
+<span id="acciarini-2020-spacecraft_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#acciarini-2020-spacecraft_abstract" data-toggle="collapse" href="#acciarini-2020-spacecraft" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#acciarini-2020-spacecraft_bibtex" data-toggle="collapse" href="#acciarini-2020-spacecraft" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'acciarini-2020-spacecraft']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/acciarini-2020-spacecraft.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'acciarini-2020-spacecraft']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="acciarini-2020-spacecraft_abstract" class="pre pre-scrollable collapse">Over 34,000 objects bigger than 10 cm in length are known to orbit Earth. Amongthem, only a small percentage are active satellites, while the rest of the populationis made of dead satellites, rocket bodies, and debris that pose a collision threatto operational spacecraft. Furthermore, the predicted growth of the space sectorand the planned launch of megaconstellations will add even more complexity,therefore causing the collision risk and the burden on space operators to increase.Managing this complex framework with internationally agreed methods is pivotaland urgent. In this context, we build a novel physics-based probabilistic generativemodel for synthetically generating conjunction data messages, calibrated usingreal data. By conditioning on observations, we use the model to obtain posteriordistributions via Bayesian inference. We show that the probabilistic programmingapproach to conjunction assessment can help in making predictions and in findingthe parameters that explain the observed data in conjunction data messages, thusshedding more light on key variables and orbital characteristics that more likelylead to conjunction events.  Moreover, our technique enables the generation ofphysically accurate synthetic datasets of collisions, answering a fundamental needof the space and machine learning communities working in this area.</p>
+  
+
+  <pre id="acciarini-2020-spacecraft_bibtex" class="pre pre-scrollable collapse">@inproceedings{acciarini-2020-spacecraft,
+  title = {Spacecraft Collision Risk Assessment with Probabilistic Programming},
+  author = {Acciarini, Giacomo and Pinto, Francesco and Metz, Sascha and Boufelja, Sarah and Kaczmarek, Sylvester and Merz, Klaus and Martinez-Heras, José A. and Letizia, Francesca and Bridges, Christopher and Baydin, Atılım Güneş},
+  booktitle = {Third Workshop on Machine Learning and the Physical Sciences (NeurIPS 2020), Vancouver, Canada},
+  year = {2020}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This work has been enabled by Frontier Development Lab (FDL) Europe, a public–private partnership between the European Space Agency (ESA), Trillium Technologies and the University of Oxford, and supported by Google Cloud. We would like to thank Dario Izzo and Moriba Jah for sharing their technical expertise and James Parr, Jodie Hughes, Leo Silverberg, Alessandro Donati for their support. AGB is supported by EPSRC/MURI grant EP/N019474/1 and by Lawrence Berkeley National Lab.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Calibrating the NASA Solar Dynamics Observatory using machine learning</title><link href="https://oxai4science.github.io/2021/04/13/nasa-calibration.html" rel="alternate" type="text/html" title="Calibrating the NASA Solar Dynamics Observatory using machine learning" /><published>2021-04-13T00:00:00+00:00</published><updated>2021-04-13T00:00:00+00:00</updated><id>https://oxai4science.github.io/2021/04/13/nasa-calibration</id><content type="html" xml:base="https://oxai4science.github.io/2021/04/13/nasa-calibration.html"><![CDATA[<h2 id="team">Team</h2>
+
+<ul>
+  <li>Luiz Fernando Guedes dos Santos (NASA Goddard Space Flight Center)</li>
+  <li>Souvik Bose (University of Oslo)</li>
+  <li>Valentina Salvatelli (SETI Institute)</li>
+  <li>Brad Neuberg (SETI Institute)</li>
+  <li>Mark Cheung (Lockheed Martin)</li>
+  <li>Miho Janvier (Universite Paris-Saclay)</li>
+  <li>Meng Jin (Lockheed Martin)</li>
+  <li>Yarin Gal (University of Oxford)</li>
+  <li>Paul Boerner (Lockheed Martin)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p><strong>Context.</strong> Solar activity plays a quintessential role in influencing the interplanetary medium and space-weather around Earth. Remote sensing instruments on-board heliophysics space missions provide a pool of information about the Sun’s activity, via the measurement of its magnetic field and the emission of light from the multi-layered, multi-thermal, and dynamic solar atmosphere. Extreme UV (EUV) wavelength observations from space help in understanding the subtleties of the outer layers of the Sun, namely the chromosphere and the corona. Unfortunately, such instruments, like the Atmospheric Imaging Assembly (AIA) on-board NASA’s Solar Dynamics Observatory (SDO), suffer from time-dependent degradation that reduces their sensitivity. Current state-of-the-art calibration techniques rely on sounding rocket flights to maintain absolute calibration, which are infrequent, complex, and limited to a single vantage point.</p>
+
+<p><strong>Aims.</strong> We aim to develop a novel method based on machine learning (ML) that exploits spatial patterns on the solar surface across multi-wavelength observations to auto-calibrate the instrument degradation.</p>
+
+<p><strong>Methods.</strong> We establish two convolutional neural network (CNN) architectures that take either single-channel or multi-channel input and train the models using the SDOML dataset. The dataset is further augmented by randomly degrading images at each epoch with the training dataset spanning non-overlapping months with the test dataset. We also develop a non-ML baseline model to assess the gain of the CNN models. With the best trained models, we reconstruct the AIA multi-channel degradation curves of 2010–2020 and compare them with the sounding-rocket based degradation curves.</p>
+
+<p><strong>Results.</strong> Our results indicate that the CNN-based models significantly outperform the non-ML baseline model in calibrating instrument degradation. Moreover, multi-channel CNN outperforms the single-channel CNN, which suggests the importance of crosschannel relations between different EUV channels for recovering the degradation profiles. The CNN-based models reproduce the degradation corrections derived from the sounding rocket cross-calibration measurements within the experimental measurement uncertainty, indicating that it performs equally well when compared with the current techniques.</p>
+
+<p><strong>Conclusions.</strong> Our approach establishes the framework for a novel technique based on CNNs to calibrate EUV instruments. We envision that this technique can be adapted to other imaging or spectral instruments operating at other wavelengths.</p>
+
+<h2 id="press-releases-and-media-coverage">Press Releases and Media Coverage</h2>
+
+<ul>
+  <li>Jul 2021: <a href="https://www.nasa.gov/feature/goddard/2021/artificial-intelligence-helps-improve-nasa-s-eyes-on-the-sun">Artificial Intelligence Helps Improve NASA’s Eyes on the Sun</a>, NASA front page</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/QFW3DKKbd5E?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="dossantos-2021-multi">Guedes dos Santos, Luiz Fernando, Souvik Bose, Valentina Salvatelli, Brad Neuberg, Mark Cheung, Miho Janvier, Meng Jin, Yarin Gal, Paul Boerner, and Atılım Güneş Baydin. 2021. “Multi-Channel Auto-Calibration for the Atmospheric Imaging Assembly Using Machine Learning.” <i>Astronomy &amp; Astrophysics</i> 648: A53. doi:10.1051/0004-6361/202040051.</span>
+
+<span id="dossantos-2021-multi_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#dossantos-2021-multi_abstract" data-toggle="collapse" href="#dossantos-2021-multi" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#dossantos-2021-multi_bibtex" data-toggle="collapse" href="#dossantos-2021-multi" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'dossantos-2021-multi']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/dossantos-2021-multi.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'dossantos-2021-multi']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="dossantos-2021-multi_abstract" class="pre pre-scrollable collapse">Context. Solar activity plays a quintessential role in influencing the interplanetary medium and space-weather around Earth. Remote sensing instruments on-board heliophysics space missions provide a pool of information about the Sun’s activity, via the measurement of its magnetic field and the emission of light from the multi-layered, multi-thermal, and dynamic solar atmosphere. Extreme UV (EUV) wavelength observations from space help in understanding the subtleties of the outer layers of the Sun, namely the chromosphere and the corona. Unfortunately, such instruments, like the Atmospheric Imaging Assembly (AIA) on-board NASA’s Solar Dynamics Observatory (SDO), suffer from time-dependent degradation that reduces their sensitivity. Current state-of-the-art calibration techniques rely on sounding rocket flights to maintain absolute calibration, which are infrequent, complex, and limited to a single vantage point. Aims. We aim to develop a novel method based on machine learning (ML) that exploits spatial patterns on the solar surface across multi-wavelength observations to auto-calibrate the instrument degradation. Methods. We establish two convolutional neural network (CNN) architectures that take either single-channel or multi-channel input and train the models using the SDOML dataset. The dataset is further augmented by randomly degrading images at each epoch with the training dataset spanning non-overlapping months with the test dataset. We also develop a non-ML baseline model to assess the gain of the CNN models. With the best trained models, we reconstruct the AIA multi-channel degradation curves of 2010–2020 and compare them with the sounding-rocket based degradation curves. Results. Our results indicate that the CNN-based models significantly outperform the non-ML baseline model in calibrating instrument degradation. Moreover, multi-channel CNN outperforms the single-channel CNN, which suggests the importance of crosschannel relations between different EUV channels for recovering the degradation profiles. The CNN-based models reproduce the degradation corrections derived from the sounding rocket cross-calibration measurements within the experimental measurement uncertainty, indicating that it performs equally well when compared with the current techniques. Conclusions. Our approach establishes the framework for a novel technique based on CNNs to calibrate EUV instruments. We envision that this technique can be adapted to other imaging or spectral instruments operating at other wavelengths.</p>
+  
+
+  <pre id="dossantos-2021-multi_bibtex" class="pre pre-scrollable collapse">@article{dossantos-2021-multi,
+  title = {Multi-Channel Auto-Calibration for the Atmospheric Imaging Assembly using Machine Learning},
+  author = {{Guedes dos Santos}, Luiz Fernando and Bose, Souvik and Salvatelli, Valentina and Neuberg, Brad and Cheung, Mark and Janvier, Miho and Jin, Meng and Gal, Yarin and Boerner, Paul and Baydin, Atılım Güneş},
+  journal = {Astronomy \&amp; Astrophysics},
+  year = {2021},
+  volume = {648},
+  pages = {A53},
+  doi = {10.1051/0004-6361/202040051},
+  url = {https://doi.org/10.1051/0004-6361/202040051}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="salvatelli-2019-virtual">Salvatelli, Valentina, Souvik Bose, Brad Neuberg, Luiz F. Guedes dos Santos, Mark Cheung, Miho Janvier, Atılım Güneş Baydin, Yarin Gal, and Meng Jin. 2019. “Using U-Nets to Create High-Fidelity Virtual Observations of the Solar Corona.” In <i>Second Workshop on Machine Learning and the Physical Sciences (NeurIPS 2019), Vancouver, Canada</i>.</span>
+
+<span id="salvatelli-2019-virtual_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#salvatelli-2019-virtual_abstract" data-toggle="collapse" href="#salvatelli-2019-virtual" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#salvatelli-2019-virtual_bibtex" data-toggle="collapse" href="#salvatelli-2019-virtual" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'salvatelli-2019-virtual']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/salvatelli-2019-virtual.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'salvatelli-2019-virtual']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="salvatelli-2019-virtual_abstract" class="pre pre-scrollable collapse">Understanding and monitoring the complex and dynamic processes of the Sun is important for a number of human activities on Earth and in space. For this reason, NASA’s Solar Dynamics Observatory (SDO) has been continuously monitoring the multi-layered Sun’s atmosphere in high-resolution since its launch in 2010, generating terabytes of observational data every day. The synergy between machine learning and this enormous amount of data has the potential, still largely unexploited, to advance our understanding of the Sun and extend the capabilities of heliophysics missions. In the present work, we show that deep learning applied to SDO data can be successfully used to create a high-fidelity “virtual telescope” that generates synthetic observations of the solar corona by image translation. Towards this end we developed a deep neural network, structured as an encoder-decoder with skip connections (U-Net), that reconstructs the Sun’s image of one instrument channel given temporally aligned images in three other channels. The approach we present has the potential to reduce the telemetry needs of SDO, enhance the capabilities of missions that have less observing channels, and transform the concept development of future missions.</p>
+  
+
+  <pre id="salvatelli-2019-virtual_bibtex" class="pre pre-scrollable collapse">@inproceedings{salvatelli-2019-virtual,
+  title = {Using U-Nets to create high-fidelity virtual observations of the solar corona},
+  author = {Salvatelli, Valentina and Bose, Souvik and Neuberg, Brad and {Guedes dos Santos}, Luiz F. and Cheung, Mark and Janvier, Miho and Baydin, Atılım Güneş and Gal, Yarin and Jin, Meng},
+  booktitle = {Second Workshop on Machine Learning and the Physical Sciences (NeurIPS 2019), Vancouver, Canada},
+  year = {2019}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="neuberg-2019-autocalibration">Neuberg, Brad, Souvik Bose, Valentina Salvatelli, Luiz F. Guedes dos Santos, Mark Cheung, Miho Janvier, Atılım Güneş Baydin, Yarin Gal, and Meng Jin. 2019. “Auto-Calibration of Remote Sensing Solar Telescopes with Deep Learning.” In <i>Second Workshop on Machine Learning and the Physical Sciences (NeurIPS 2019), Vancouver, Canada</i>.</span>
+
+<span id="neuberg-2019-autocalibration_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#neuberg-2019-autocalibration_abstract" data-toggle="collapse" href="#neuberg-2019-autocalibration" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#neuberg-2019-autocalibration_bibtex" data-toggle="collapse" href="#neuberg-2019-autocalibration" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'neuberg-2019-autocalibration']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/neuberg-2019-autocalibration.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'neuberg-2019-autocalibration']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="neuberg-2019-autocalibration_abstract" class="pre pre-scrollable collapse">As a part of NASA’s Heliophysics System Observatory (HSO) fleet of satellites, the Solar Dynamics Observatory (SDO) has continuously monitored the Sun since 2010. Ultraviolet (UV) and Extreme UV (EUV) instruments in orbit, such as SDO’s Atmospheric Imaging Assembly (AIA) instrument, suffer time-dependent degradation which reduces instrument sensitivity. Accurate calibration for (E)UV instruments currently depends on periodic sounding rockets, which are infrequent and not practical for heliophysics missions in deep space. In the present work, we develop a Convolutional Neural Network (CNN) that auto-calibrates SDO/AIA channels and corrects sensitivity degradation by exploiting spatial patterns in multi-wavelength observations to arrive at a self-calibration of (E)UV imaging instruments. Our results remove a major impediment to developing future HSO missions of the same scientific caliber as SDO but in deep space, able to observe the Sun from more vantage points than just SDO’s current geosynchronous orbit. This approach can be adopted to perform autocalibration of other imaging systems exhibiting similar forms of degradation.</p>
+  
+
+  <pre id="neuberg-2019-autocalibration_bibtex" class="pre pre-scrollable collapse">@inproceedings{neuberg-2019-autocalibration,
+  title = {Auto-Calibration of Remote Sensing Solar Telescopes with Deep Learning},
+  author = {Neuberg, Brad and Bose, Souvik and Salvatelli, Valentina and {Guedes dos Santos}, Luiz F. and Cheung, Mark and Janvier, Miho and Baydin, Atılım Güneş and Gal, Yarin and Jin, Meng},
+  booktitle = {Second Workshop on Machine Learning and the Physical Sciences (NeurIPS 2019), Vancouver, Canada},
+  year = {2019}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="salvatelli-2021-selfsupervised">Salvatelli, Valentina, Luiz Fernando Guedes dos Santos, Mark Cheung, Souvik Bose, Brad Neuberg, Miho Janvier, Meng Jin, Yarin Gal, and Atılım Güneş Baydin. 2021. “Self-Supervised Deep Learning for Reducing Data Transmission Needs in Multi-Wavelength Space Instruments: a Case Study Based on the Solar Dynamics Observatory.” In <i>American Geophysical Union (AGU) Fall Meeting, December 13–17, 2021</i>. https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/984065.</span>
+
+<span id="salvatelli-2021-selfsupervised_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#salvatelli-2021-selfsupervised_abstract" data-toggle="collapse" href="#salvatelli-2021-selfsupervised" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#salvatelli-2021-selfsupervised_bibtex" data-toggle="collapse" href="#salvatelli-2021-selfsupervised" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'salvatelli-2021-selfsupervised']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="salvatelli-2021-selfsupervised_abstract" class="pre pre-scrollable collapse">The Solar Dynamics Observatory(SDO), a NASA mission that has been producing terabytes of observational data every day for more than ten years, has been used as a use-case to demonstrate the potential of particular methodologies and pave the way for future deep-space mission planning. In deep space, multispectral high-resolution missions like SDO would face two major challenges: 1- a low rate of telemetry 2- constrained hardware (i.e.limited number of observational channels). This project investigates the potential, and the limitations, of using a deep learning approach to reduce data transmission needs and data latency of a multi-wavelength satellite instrument. Namely, we use multi-channel data from the SDO’s Atmospheric Imaging Assembly(AIA) to show how self-supervised deep learning models can be used to synthetically produce, via image-to-image translation, images of the solar corona, and how this can be leveraged to reduce the downlink requirements of similar space missions. In this regards, we focus on encoder-decoder based architectures and we study how morphological traits and brightness of the solar surface affects the neural network predictions. We also investigate the limitations that these virtual observations might have and the impact on science. Finally we discuss how the method we propose can be used to create a data transmission schema that is both efficient and automated.</p>
+  
+
+  <pre id="salvatelli-2021-selfsupervised_bibtex" class="pre pre-scrollable collapse">@inproceedings{salvatelli-2021-selfsupervised,
+  title = {Self-supervised Deep Learning for Reducing Data Transmission Needs in Multi-Wavelength Space Instruments: a case study based on the Solar Dynamics Observatory},
+  author = {Salvatelli, Valentina and {Guedes dos Santos}, Luiz Fernando and Cheung, Mark and Bose, Souvik and Neuberg, Brad and Janvier, Miho and Jin, Meng and Gal, Yarin and Baydin, Atılım Güneş},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 13--17, 2021},
+  year = {2021},
+  url = {https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/984065}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="dossantos-2020-multi">Guedes dos Santos, Luiz Fernando, Souvik Bose, Valentina Salvatelli, Brad Neuberg, Mark Cheung, Miho Janvier, Meng Jin, Yarin Gal, Paul Boerner, and Atılım Güneş Baydin. 2020. “Multi-Channel Auto-Calibration for the Atmospheric Imaging Assembly Instrument with Deep Learning.” In <i>American Geophysical Union (AGU) Fall Meeting, December 1–17, 2020</i>. https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=58-34-12-15-E8-F1-7E-63-04-54-FB-78-A5-C9-FF-B4&amp;pdfprint=true&amp;guestview.</span>
+
+<span id="dossantos-2020-multi_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#dossantos-2020-multi_abstract" data-toggle="collapse" href="#dossantos-2020-multi" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#dossantos-2020-multi_bibtex" data-toggle="collapse" href="#dossantos-2020-multi" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'dossantos-2020-multi']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="dossantos-2020-multi_abstract" class="pre pre-scrollable collapse">Solar activity plays a major role in influencing the interplanetary medium and space-weather around us. Understanding the complex mechanisms that govern such a dynamic phenomenon is important and challenging. Remote-sensing instruments onboard heliophysics missions can provide a wealth of information on the Sun’s activity, especially via the measurement of magnetic fields and the emission of light from the multi-layered solar atmosphere. NASA currently operates the Heliophysics System Observatory (HSO) that consists of a fleet of satellites constantly monitoring the Sun, its extended atmosphere, and space environments around the Earth and other planets of the solar system. One of the flagship missions of the HSO is NASA’s Solar Dynamics Observatory (SDO). Launched in 2010, it consists of three instruments: the Atmospheric Imaging Assembly (AIA), the Helioseismic &amp; Magnetic Imager (HMI), and the EUV Variability Experiment (EVE). The SDO has been generating terabytes of observational data every day and has constantly monitored theSun with the highest temporal and spatial resolution for full-disk observations. Unfortunately, the (E)UV instruments in orbit suffer time-dependent degradation, which reduces instrument sensitivity. Accurate calibration for EUV instruments currently depends on sounding rockets (e.g., for SDO/EVE and SDO/AIA) infrequent. Since SDO is in a geosynchronous orbit, sounding rockets can be used for calibration, but calibration experiments may not be practical for deep space missions (e.g., STEREO satellites). In the present work, we develop a neural network that auto-calibrates the SDO/AIA channels, correcting sensitivity degradation, by exploiting spatial patterns in multi-wavelength observations to arrive at a self-calibration (E)UV imaging instruments. This removes a major impediment to developing future HSO missions that can deliver solar observations from different vantagepoints beyond Earth-orbit.</p>
+  
+
+  <pre id="dossantos-2020-multi_bibtex" class="pre pre-scrollable collapse">@inproceedings{dossantos-2020-multi,
+  title = {Multi-Channel Auto-Calibration for the Atmospheric Imaging Assembly instrument with Deep Learning},
+  author = {{Guedes dos Santos}, Luiz Fernando and Bose, Souvik and Salvatelli, Valentina and Neuberg, Brad and Cheung, Mark and Janvier, Miho and Jin, Meng and Gal, Yarin and Boerner, Paul and Baydin, Atılım Güneş},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 1--17, 2020},
+  year = {2020},
+  url = {https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=58-34-12-15-E8-F1-7E-63-04-54-FB-78-A5-C9-FF-B4&amp;pdfprint=true&amp;guestview}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="cheung-2019-auto">Cheung, Mark, Luiz Fernando Guedes dos Santos, Souvik Bose, Brad Neuberg, Valentina Salvatelli, Atılım Güneş Baydin, Miho Janvier, and Meng Jin. 2019. “Auto-Calibration and Reconstruction of SDO’s Atmospheric Imaging Assembly Channels with Deep Learning.” In <i>American Geophysical Union (AGU) Fall Meeting, San Francisco, CA, United States, December 9–13, 2019</i>. https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/628427.</span>
+
+<span id="cheung-2019-auto_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#cheung-2019-auto_abstract" data-toggle="collapse" href="#cheung-2019-auto" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#cheung-2019-auto_bibtex" data-toggle="collapse" href="#cheung-2019-auto" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'cheung-2019-auto']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="cheung-2019-auto_abstract" class="pre pre-scrollable collapse">Solar activity has a major role in influencing space weather and the interplanetary medium. Understanding the complex mechanisms that govern such a dynamic phenomenon is important and challenging. Remote-sensing instruments on board of heliophysics missions can provide a wealth of information on the Sun’s activity, especially via the measurement of magnetic fields and the emission of light from the multi-layered Sun’s atmosphere. Ever since its launch in 2010, the observations by NASA’s Solar Dynamics Observatory (SDO) generates terabytes of observational data every day and has constantly monitored the Sun 24x7 with the highest time cadence and spatial resolution for full-disk observations. Using the enormous amount of data SDO provides, this project, developed at the NASA’s Frontier Development Lab (FDL 2019), focuses on algorithms that enhance our understanding of the Sun, as well as enhance the observation potential of present and future heliophysics missions with the aid of machine learning. In the present work, we use deep learning to increase the capabilities of NASA’s SDO and focus primarily on two aspects: (1) develop a neural network that auto-calibrates the SDO-AIA channels, which suffer from steady degradation over time; and (2) develop a “virtual telescope” that enlarges the missions possibilities by synthetically generating desired EUV channels derived from actual physical equipment flown on other mission. Towards this end, we use a deep neural network structured as an encoder-decoder to artificially generate images in different wavelengths from a limited number of observations. This approach can also improve other existing as well as the concept development of future missions that do not have as many observing instruments as SDO.</p>
+  
+
+  <pre id="cheung-2019-auto_bibtex" class="pre pre-scrollable collapse">@inproceedings{cheung-2019-auto,
+  title = {Auto-calibration and reconstruction of {SDO}’s Atmospheric Imaging Assembly channels with Deep Learning},
+  author = {Cheung, Mark and {Guedes dos Santos}, Luiz Fernando and Bose, Souvik and Neuberg, Brad and Salvatelli, Valentina and Baydin, Atılım Güneş and Janvier, Miho and Jin, Meng},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, San Francisco, CA, United States, December 9--13, 2019},
+  year = {2019},
+  url = {https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/628427}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This project was partially conducted during the 2019 Frontier Development Lab (FDL) program, a co-operative agreement between NASA and the SETI Institute. We wish to thank IBM for providing computing power through access to the Accelerated Computing Cloud, as well as NASA, Google Cloud and Lockheed Martin for supporting this project. L.F.G.S was supported by the National Science Foundation under Grant No. AGS-1433086. M.C.M.C. and M.J. acknowledge support from NASA’s SDO/AIA (NNG04EA00C) contract to the LMSAL. S.B. acknowledges the support from the Research Council of Norway, project number 250810, and through its Centers of Excellence scheme, project number 262622. This project was also partially performed with funding from Google Cloud Platform research credits program. We thank the NASA’s Living With a Star Program, which SDO is part of, with AIA, and HMI instruments on-board. CHIANTI is a collaborative project involving George Mason University, the University of Michigan (USA), University of Cambridge (UK) and NASA Goddard Space Flight Center (USA). A.G.B. is supported by EPSRC/MURI grant EP/N019474/1 and by Lawrence Berkeley National Lab. Software: We acknowledge for CUDA processing cuDNN (Chetlur et al. 2014), for data analysis and processing we used Sunpy (Mumford et al. 2020), Numpy (van der Walt et al. 2011), Pandas (Wes McKinney 2010), SciPy (Virtanen et al. 2020), scikit-image (van der Walt et al. 2014) and scikit-learn(Pedregosa et al. 2011). Finally all plots were done using Matplotlib (Hunter 2007) and Astropy (Price-Whelan et al. 2018).</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Etalumis: Scientific simulators as probabilistic programs</title><link href="https://oxai4science.github.io/2019/11/17/etalumis.html" rel="alternate" type="text/html" title="Etalumis: Scientific simulators as probabilistic programs" /><published>2019-11-17T00:00:00+00:00</published><updated>2019-11-17T00:00:00+00:00</updated><id>https://oxai4science.github.io/2019/11/17/etalumis</id><content type="html" xml:base="https://oxai4science.github.io/2019/11/17/etalumis.html"><![CDATA[<!-- [[Paper]](https://doi.org/10.3847/1538-3881/ab2390)&ensp;&ensp;[[Code]](https://gitlab.com/frontierdevelopmentlab/astrobiology/inara) -->
+
+<h2 id="team">Team</h2>
+
+<ul>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+  <li>Lukas Heinrich (CERN)</li>
+  <li>Wahid Bhimji (Lawrence Berkeley National Lab)</li>
+  <li>Lei Shao (Intel Corp)</li>
+  <li>Saeid Naderiparizi (University of British Columbia)</li>
+  <li>Andreas Munk (University of British Columbia)</li>
+  <li>Jialin Liu (Lawrence Berkeley National Lab)</li>
+  <li>Bradley Gram-Hansen (University of Oxford)</li>
+  <li>Gilles Louppe (University of Liege)</li>
+  <li>Lawrence Meadows (Intel Corp)</li>
+  <li>Philip Torr (University of Oxford)</li>
+  <li>Victor Lee (Intel Corp)</li>
+  <li>Prabhat (Lawrence Berkeley National Lab)</li>
+  <li>Kyle Cranmer (New York University)</li>
+  <li>Frank Wood (University of British Columbia)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>We present a novel probabilistic programming framework that couples directly to existing large-scale simulators through a cross-platform probabilistic execution protocol, which allows general-purpose inference engines to record and control random number draws within simulators in a language-agnostic way. The execution of existing simulators as probabilistic programs enables highly interpretable posterior inference in the structured model defined by the simulator code base. We demonstrate the technique in particle physics, on a scientifically accurate simulation of the tau lepton decay, which is a key ingredient in establishing the properties of the Higgs boson. Inference efficiency is achieved via inference compilation where a deep recurrent neural network is trained to parameterize proposal distributions and control the stochastic simulator in a sequential importance sampling scheme, at a fraction of the computational cost of a Markov chain Monte Carlo baseline.</p>
+
+<h2 id="press-releases-and-media-coverage">Press Releases and Media Coverage</h2>
+
+<ul>
+  <li>Nov 2019: <a href="https://cs.lbl.gov/news-media/news/2019/etalumis-reverses-simulations-to-reveal-new-science/">Etalumis ‘Reverses’ Simulations to Reveal New Science: New Probabilistic Programming Framework a Finalist for Best Paper at SC19</a>, Lawrence Berkeley Lab</li>
+</ul>
+
+<h2 id="slides">Slides</h2>
+
+<div>
+  <div style="position:relative;padding-top:60.5%;">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAdEU_H6-sYcK3k8taFbvNUv3gW7wNTOnfualUwZy0o8XppzpbCS30HYASQJWeU4qNi_3O_CenX3-A/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="naderiparizi-2022-amortized">Naderiparizi, Saeid, Adam Ścibior, Andreas Munk, Mehrdad Ghadiri, Atılım Güneş Baydin, Bradley Gram-Hansen, Christian Schroeder de Witt, Robert Zinkov, Philip H.S. Torr, Tom Rainforth, Yee Whye Teh, and Frank Wood. 2022. “Amortized Rejection Sampling in Universal Probabilistic Programming.” In <i>Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS)</i>.</span>
+
+<span id="naderiparizi-2022-amortized_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#naderiparizi-2022-amortized_abstract" data-toggle="collapse" href="#naderiparizi-2022-amortized" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#naderiparizi-2022-amortized_bibtex" data-toggle="collapse" href="#naderiparizi-2022-amortized" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'naderiparizi-2022-amortized']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/naderiparizi-2022-amortized.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'naderiparizi-2022-amortized']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="naderiparizi-2022-amortized_abstract" class="pre pre-scrollable collapse">Naive approaches to amortized inference in probabilistic programs with unbounded loops can produce estimators with infinite variance. This is particularly true of importance sampling inference in programs that explicitly include rejection sampling as part of the user-programmed generative procedure. In this paper we develop a new and efficient amortized importance sampling estimator. We prove finite variance of our estimator and empirically demonstrate our method’s correctness and efficiency compared to existing alternatives on generative programs containing rejection sampling loops and discuss how to implement our method in a generic probabilistic programming framework.</p>
+  
+
+  <pre id="naderiparizi-2022-amortized_bibtex" class="pre pre-scrollable collapse">@inproceedings{naderiparizi-2022-amortized,
+  title = {Amortized Rejection Sampling in Universal Probabilistic Programming},
+  author = {Naderiparizi, Saeid and {\'S}cibior, Adam and Munk, Andreas and Ghadiri, Mehrdad and Baydin, At{\i}l{\i}m G{\"u}ne{\c{s}} and Gram-Hansen, Bradley and de Witt, Christian Schroeder and Zinkov, Robert and Torr, Philip H.S. and Rainforth, Tom and Teh, Yee Whye and Wood, Frank},
+  booktitle = {Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year = {2022}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="baydin-2019-quest-for-physics">Baydin, Atılım Güneş, Lukas Heinrich, Wahid Bhimji, Lei Shao, Saeid Naderiparizi, Andreas Munk, Jialin Liu, Bradley Gram-Hansen, Gilles Louppe, Lawrence Meadows, Philip Torr, Victor Lee, Prabhat, Kyle Cranmer, and Frank Wood. 2019. “Efficient Probabilistic Inference in the Quest for Physics Beyond the Standard Model.” In <i>Advances in Neural Information Processing Systems 33 (NeurIPS)</i>.</span>
+
+<span id="baydin-2019-quest-for-physics_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#baydin-2019-quest-for-physics_abstract" data-toggle="collapse" href="#baydin-2019-quest-for-physics" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#baydin-2019-quest-for-physics_bibtex" data-toggle="collapse" href="#baydin-2019-quest-for-physics" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'baydin-2019-quest-for-physics']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/baydin-2019-quest-for-physics.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'baydin-2019-quest-for-physics']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="baydin-2019-quest-for-physics_abstract" class="pre pre-scrollable collapse">We present a novel probabilistic programming framework that couples directly to existing large-scale simulators through a cross-platform probabilistic execution protocol, which allows general-purpose inference engines to record and control random number draws within simulators in a language-agnostic way. The execution of existing simulators as probabilistic programs enables highly interpretable posterior inference in the structured model defined by the simulator code base. We demonstrate the technique in particle physics, on a scientifically accurate simulation of the tau lepton decay, which is a key ingredient in establishing the properties of the Higgs boson. Inference efficiency is achieved via inference compilation where a deep recurrent neural network is trained to parameterize proposal distributions and control the stochastic simulator in a sequential importance sampling scheme, at a fraction of the computational cost of a Markov chain Monte Carlo baseline.</p>
+  
+
+  <pre id="baydin-2019-quest-for-physics_bibtex" class="pre pre-scrollable collapse">@inproceedings{baydin-2019-quest-for-physics,
+  title = {Efficient Probabilistic Inference in the Quest for Physics Beyond the Standard Model},
+  author = {Baydin, Atılım Güneş and Heinrich, Lukas and Bhimji, Wahid and Shao, Lei and Naderiparizi, Saeid and Munk, Andreas and Liu, Jialin and Gram-Hansen, Bradley and Louppe, Gilles and Meadows, Lawrence and Torr, Philip and Lee, Victor and Prabhat and Cranmer, Kyle and Wood, Frank},
+  booktitle = {Advances in Neural Information Processing Systems 33 (NeurIPS)},
+  year = {2019}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="baydin-2019-etalumis">Baydin, Atılım Güneş, Lei Shao, Wahid Bhimji, Lukas Heinrich, Lawrence F. Meadows, Jialin Liu, Andreas Munk, Saeid Naderiparizi, Bradley Gram-Hansen, Gilles Louppe, Mingfei Ma, Xiaohui Zhao, Philip Torr, Victor Lee, Kyle Cranmer, Prabhat, and Frank Wood. 2019. “Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale.” In <i>Proceedings of the International Conference for High Performance Computing, Networking, Storage and   Analysis</i>. SC ’19. New York, NY, USA: Association for Computing Machinery. doi:10.1145/3295500.3356180.</span>
+
+<span id="baydin-2019-etalumis_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#baydin-2019-etalumis_abstract" data-toggle="collapse" href="#baydin-2019-etalumis" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#baydin-2019-etalumis_bibtex" data-toggle="collapse" href="#baydin-2019-etalumis" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'baydin-2019-etalumis']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/baydin-2019-etalumis.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'baydin-2019-etalumis']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="baydin-2019-etalumis_abstract" class="pre pre-scrollable collapse">Probabilistic programming languages (PPLs) are receiving widespread attention for performing Bayesian inference in complex generative models. However, applications to science remain limited because of the impracticability of rewriting complex scientific simulators in a PPL, the computational cost of inference, and the lack of scalable implementations. To address these, we present a novel PPL framework that couples directly to existing scientific simulators through a cross-platform probabilistic execution protocol and provides Markov chain Monte Carlo (MCMC) and deep-learning-based inference compilation (IC) engines for tractable inference. To guide IC inference, we perform distributed training of a dynamic 3DCNN–LSTM architecture with a PyTorch-MPI-based framework on 1,024 32-core CPU nodes of the Cori supercomputer with a global minibatch size of 128k: achieving a performance of 450 Tflop/s through enhancements to PyTorch. We demonstrate a Large Hadron Collider (LHC) use-case with the C++ Sherpa simulator and achieve the largest-scale posterior inference in a Turing-complete PPL.</p>
+  
+
+  <pre id="baydin-2019-etalumis_bibtex" class="pre pre-scrollable collapse">@inproceedings{baydin-2019-etalumis,
+  author = {Baydin, Atılım Güneş and Shao, Lei and Bhimji, Wahid and Heinrich, Lukas and Meadows, Lawrence F. and Liu, Jialin and Munk, Andreas and Naderiparizi, Saeid and Gram-Hansen, Bradley and Louppe, Gilles and Ma, Mingfei and Zhao, Xiaohui and Torr, Philip and Lee, Victor and Cranmer, Kyle and Prabhat and Wood, Frank},
+  title = {Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale},
+  year = {2019},
+  isbn = {9781450362290},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3295500.3356180},
+  doi = {10.1145/3295500.3356180},
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and   Analysis},
+  articleno = {Article 29},
+  numpages = {24},
+  keywords = {inference, probabilistic programming, deep learning, simulation},
+  location = {Denver, Colorado},
+  series = {SC ’19}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="schroederdewitt-2020-simulation">Schroeder de Witt, Christian, Bradley Gram-Hansen, Nantas Nardelli, Andrew Gambardella, Rob Zinkov, Puneet Dokania, N. Siddharth, Ana Belen Espinosa-Gonzalez, Ara Darzi, Philip Torr, and Atılım Güneş Baydin. 2020. “Simulation-Based Inference for Global Health Decisions.” In <i>ICML Workshop on Machine Learning for Global Health, Thirty-Seventh International Conference on Machine Learning (ICML 2020)</i>.</span>
+
+<span id="schroederdewitt-2020-simulation_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#schroederdewitt-2020-simulation_abstract" data-toggle="collapse" href="#schroederdewitt-2020-simulation" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#schroederdewitt-2020-simulation_bibtex" data-toggle="collapse" href="#schroederdewitt-2020-simulation" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'schroederdewitt-2020-simulation']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/schroederdewitt-2020-simulation.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'schroederdewitt-2020-simulation']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="schroederdewitt-2020-simulation_abstract" class="pre pre-scrollable collapse">The COVID-19 pandemic has highlighted the importance of in-silico epidemiological modelling in predicting the dynamics of infectious diseases to inform health policy and decision makers about suitable prevention and containment strategies. Work in this setting involves solving challenging inference and control problems in individual-based models of ever increasing complexity. Here we discuss recent breakthroughs in machine learning, specifically in simulation-based inference, and explore its potential as a novel venue for model calibration to support the design and evaluation of public health interventions. To further stimulate research, we are developing software interfaces that turn two cornerstone COVID-19 and malaria epidemiology models (CovidSim and OpenMalaria) into probabilistic programs, enabling efficient interpretable Bayesian inference within those simulators.</p>
+  
+
+  <pre id="schroederdewitt-2020-simulation_bibtex" class="pre pre-scrollable collapse">@inproceedings{schroederdewitt-2020-simulation,
+  title = {Simulation-Based Inference for Global Health Decisions},
+  author = {{Schroeder de Witt}, Christian and Gram-Hansen, Bradley and Nardelli, Nantas and Gambardella, Andrew and Zinkov, Rob and Dokania, Puneet and Siddharth, N. and Espinosa-Gonzalez, Ana Belen and Darzi, Ara and Torr, Philip and Baydin, Atılım Güneş},
+  booktitle = {ICML Workshop on Machine Learning for Global Health, Thirty-seventh International Conference on Machine Learning (ICML 2020)},
+  year = {2020}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="naderiparizi-2020-amortized">Naderiparizi, Saeid, Adam Ścibior, Andreas Munk, Mehrdad Ghadiri, Atılım Güneş Baydin, Bradley Gram-Hansen, Christian Schroeder de Witt, Robert Zinkov, Philip H.S. Torr, Tom Rainforth, Yee Whye Teh, and Frank Wood. 2020. “Amortized Rejection Sampling in Universal Probabilistic Programming.” In <i>International Conference on Probabilistic Programming (PROBPROG 2020), Cambridge, MA, United States</i>. https://probprog.cc/.</span>
+
+<span id="naderiparizi-2020-amortized_materials">
+  <ul class="nav nav-pills">
+    
+
+    <li><a class="bib-materials" data-target="#naderiparizi-2020-amortized_bibtex" data-toggle="collapse" href="#naderiparizi-2020-amortized" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'naderiparizi-2020-amortized']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+
+  <pre id="naderiparizi-2020-amortized_bibtex" class="pre pre-scrollable collapse">@inproceedings{naderiparizi-2020-amortized,
+  title = {Amortized Rejection Sampling in Universal Probabilistic Programming},
+  author = {Naderiparizi, Saeid and {\'S}cibior, Adam and Munk, Andreas and Ghadiri, Mehrdad and Baydin, At{\i}l{\i}m G{\"u}ne{\c{s}} and Gram-Hansen, Bradley and de Witt, Christian Schroeder and Zinkov, Robert and Torr, Philip H.S. and Rainforth, Tom and Teh, Yee Whye and Wood, Frank},
+  booktitle = {International Conference on Probabilistic Programming (PROBPROG 2020), Cambridge, MA, United States},
+  year = {2020},
+  url = {https://probprog.cc/}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="gramhansen-2019-efficient">Gram-Hansen, Bradley, Christian Schroeder de Witt, Robert Zinkov, Saeid Naderiparizi, Adam Scibior, Andreas Munk, Frank Wood, Mehrdad Ghadiri, Philip Torr, Yee Whye Teh, Atılım Güneş Baydin, and Tom Rainforth. 2019. “Efficient Bayesian Inference for Nested Simulators.” In <i>Second Symposium on Advances in Approximate Bayesian Inference (AABI), Vancouver, Canada, 8 December 2019</i>.</span>
+
+<span id="gramhansen-2019-efficient_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#gramhansen-2019-efficient_abstract" data-toggle="collapse" href="#gramhansen-2019-efficient" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#gramhansen-2019-efficient_bibtex" data-toggle="collapse" href="#gramhansen-2019-efficient" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'gramhansen-2019-efficient']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/gramhansen-2019-efficient.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'gramhansen-2019-efficient']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="gramhansen-2019-efficient_abstract" class="pre pre-scrollable collapse">We introduce two approaches for conducting efficient Bayesian inference in stochastic simulators containing nested stochastic sub-procedures, i.e., internal procedures such as rejection sampling loops for which the density cannot calculated directly. Such simulators are standard through the sciences and can be interpreted as probabilistic generative models. However, drawing inferences from them poses a substantial challenge due to the inability to evaluate even their unnormalised density. To address this, we introduce inference algorithms based on a two-step procedure where one first tackle the sub-procedures as amortised inference problems then uses the learned artefacts to construct an approximation of the original unnormalised density that can be used as a target for Markov chain Monte Carlo methods. Because the sub-procedures can be dealt with separately and are lower-dimensional than that of the overall problem, this two-step process allows them to be isolated and thus be tractably dealt with, without placing restrictions on the overall dimensionality of the problem. We demonstrate the utility of our methods on a simple, artificially constructed simulator.</p>
+  
+
+  <pre id="gramhansen-2019-efficient_bibtex" class="pre pre-scrollable collapse">@inproceedings{gramhansen-2019-efficient,
+  author = {Gram-Hansen, Bradley and de Witt, Christian Schroeder and Zinkov, Robert and Naderiparizi, Saeid and Scibior, Adam and Munk, Andreas and Wood, Frank and Ghadiri, Mehrdad and Torr, Philip and Teh, Yee Whye and Baydin, Atılım Güneş and Rainforth, Tom},
+  booktitle = {Second Symposium on Advances in Approximate Bayesian Inference (AABI), Vancouver, Canada, 8 December 2019},
+  title = {Efficient Bayesian Inference for Nested Simulators},
+  year = {2019}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>We thank the anonymous reviewers for their constructive comments that helped us improve this paper significantly. This research used resources of the National Energy Research Scientific Computing Center (NERSC), a U.S. Department of Energy Office of Science User Facility operated under  Contract No. DE-AC02-05CH11231. This work was partially supported by the NERSC Big Data Center; we acknowledge Intel for their funding support. KC, LH, and GL were supported by the National Science Foundation under the awards ACI-1450310. Additionally, KC was supported by the National Science Foundation award OAC-1836650. BGH is supported by the EPRSC Autonomous Intelligent Machines and Systems grant. AGB and PT are supported by EPSRC/MURI grant EP/N019474/1 and AGB is also supported by Lawrence Berkeley National Lab. FW is supported by DARPA D3M, under Cooperative Agreement FA8750-17-2-0093, Intel under its LBNL NERSC Big Data Center, and an NSERC Discovery grant.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry><entry><title type="html">Bayesian ensembles for inferring exoplanetary atmospheres</title><link href="https://oxai4science.github.io/2019/06/27/exoplanet-atmospheres.html" rel="alternate" type="text/html" title="Bayesian ensembles for inferring exoplanetary atmospheres" /><published>2019-06-27T00:00:00+00:00</published><updated>2019-06-27T00:00:00+00:00</updated><id>https://oxai4science.github.io/2019/06/27/exoplanet-atmospheres</id><content type="html" xml:base="https://oxai4science.github.io/2019/06/27/exoplanet-atmospheres.html"><![CDATA[<!-- [[Paper]](https://doi.org/10.3847/1538-3881/ab2390)&ensp;&ensp;[[Code]](https://gitlab.com/frontierdevelopmentlab/astrobiology/inara) -->
+
+<h2 id="team">Team</h2>
+
+<ul>
+  <li>Adam D. Cobb (University of Oxford)</li>
+  <li>Michael D. Himes (University of Central Florida)</li>
+  <li>Frank Soboczenski (Kings College London)</li>
+  <li>Simone Zorzan (Luxembourg Institute of Science and Technology)</li>
+  <li>Molly D. O’Beirne (University of Pittsburgh)</li>
+  <li>Atılım Güneş Baydin (University of Oxford)</li>
+  <li>Yarin Gal (University of Oxford)</li>
+  <li>Shawn D. Domagal-Goldman (NASA Goddard Space Flight Center)</li>
+  <li>Giada N. Arney (NASA Goddard Space Flight Center)</li>
+  <li>Daniel Angerhausen (University of Bern)</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Machine learning is now used in many areas of astrophysics, from detecting exoplanets in Kepler transit signals to removing telescope systematics. Recent work demonstrated the potential of using machine learning algorithms for atmospheric retrieval by implementing a random forest to perform retrievals in seconds that are consistent with the traditional, computationally-expensive nested-sampling retrieval method. We expand upon their approach by presenting a new machine learning model, plan-net, based on an ensemble of Bayesian neural networks that yields more accurate inferences than the random forest for the same data set of synthetic transmission spectra. We demonstrate that an ensemble provides greater accuracy and more robust uncertainties than a single model. In addition to being the first to use Bayesian neural networks for atmospheric retrieval, we also introduce a new loss function for Bayesian neural networks that learns correlations between the model outputs. Importantly, we show that designing machine learning models to explicitly incorporate domain-specific knowledge both improves performance and provides additional insight by inferring the covariance of the retrieved atmospheric parameters. We apply plan-net to the Hubble Space Telescope Wide Field Camera 3 transmission spectrum for WASP-12b and retrieve an isothermal temperature and water abundance consistent with the literature. We highlight that our method is flexible and can be expanded to higher-resolution spectra and a larger number of atmospheric parameters.</p>
+
+<h2 id="press-releases-and-media-coverage">Press Releases and Media Coverage</h2>
+
+<ul>
+  <li>Nov 2019: <a href="https://www.nasa.gov/feature/goddard/2019/nasa-takes-a-cue-from-silicon-valley-to-hatch-artificial-intelligence-technologies">NASA Takes a Cue From Silicon Valley to Hatch Artificial Intelligence Technologies</a>, NASA front page</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/4nf-ROgfXFU?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><span id="cobb-2019-ensemble">Cobb, Adam D., Michael D. Himes, Frank Soboczenski, Simone Zorzan, Molly D. O’Beirne, Atılım Güneş Baydin, Yarin Gal, Shawn D. Domagal-Goldman, Giada N. Arney, and Daniel Angerhausen. 2019. “An Ensemble of Bayesian Neural Networks for Exoplanetary Atmospheric Retrieval.” <i>The Astronomical Journal</i> 158 (1). doi:10.3847/1538-3881/ab2390.</span>
+
+<span id="cobb-2019-ensemble_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#cobb-2019-ensemble_abstract" data-toggle="collapse" href="#cobb-2019-ensemble" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#cobb-2019-ensemble_bibtex" data-toggle="collapse" href="#cobb-2019-ensemble" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'cobb-2019-ensemble']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/cobb-2019-ensemble.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'cobb-2019-ensemble']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="cobb-2019-ensemble_abstract" class="pre pre-scrollable collapse">Machine learning is now used in many areas of astrophysics, from detecting exoplanets in Kepler transit signals to removing telescope systematics.
+Recent work demonstrated the potential of using machine learning algorithms for atmospheric retrieval by implementing a random forest to perform retrievals in seconds that are consistent with the traditional, computationally-expensive nested-sampling retrieval method. We expand upon their approach by presenting a new machine learning model, plan-net, based on an ensemble of Bayesian neural networks that yields more accurate inferences than the random forest for the same data set of synthetic transmission spectra. We demonstrate that an ensemble provides greater accuracy and more robust uncertainties than a single model. In addition to being the first to use Bayesian neural networks for atmospheric retrieval, we also introduce a new loss function for Bayesian neural networks that learns correlations between the model outputs. Importantly, we show that designing machine learning models to explicitly incorporate domain-specific knowledge both improves performance and provides additional insight by inferring the covariance of the retrieved atmospheric parameters. We apply plan-net to the Hubble Space Telescope Wide Field Camera 3 transmission spectrum for WASP-12b and retrieve an isothermal temperature and water abundance consistent with the literature. We highlight that our method is flexible and can be expanded to higher-resolution spectra and a larger number of atmospheric parameters.</p>
+  
+
+  <pre id="cobb-2019-ensemble_bibtex" class="pre pre-scrollable collapse">@article{cobb-2019-ensemble,
+  title = {An Ensemble of Bayesian Neural Networks for Exoplanetary Atmospheric Retrieval},
+  author = {Cobb, Adam D. and Himes, Michael D. and Soboczenski, Frank and Zorzan, Simone and O’Beirne, Molly D. and Baydin, Atılım Güneş and Gal, Yarin and Domagal-Goldman, Shawn D. and Arney, Giada N. and Angerhausen, Daniel},
+  journal = {The Astronomical Journal},
+  volume = {158},
+  number = {1},
+  year = {2019},
+  doi = {10.3847/1538-3881/ab2390},
+  url = {https://doi.org/10.3847/1538-3881/ab2390}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="soboczenski-2018-bayesian-exoplanet">Soboczenski, Frank, Michael D. Himes, Molly D. O’Beirne, Simone Zorzan, Atılım Güneş Baydin, Adam D. Cobb, Yarin Gal, Daniel Angerhausen, Massimo Mascaro, Giada N. Arney, and Shawn D. Domagal-Goldman. 2018. “Bayesian Deep Learning for Exoplanet Atmospheric Retrieval.” In <i>Third Workshop on Bayesian Deep Learning (NeurIPS 2018), Montreal, Canada</i>.</span>
+
+<span id="soboczenski-2018-bayesian-exoplanet_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#soboczenski-2018-bayesian-exoplanet_abstract" data-toggle="collapse" href="#soboczenski-2018-bayesian-exoplanet" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#soboczenski-2018-bayesian-exoplanet_bibtex" data-toggle="collapse" href="#soboczenski-2018-bayesian-exoplanet" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'soboczenski-2018-bayesian-exoplanet']); return false;">Bib</a></li>
+
+
+    
+    <li><a class="bib-materials" href="/assets/pdf/soboczenski-2018-bayesian-exoplanet.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'soboczenski-2018-bayesian-exoplanet']);">PDF</a></li>
+    
+  </ul>
+
+  
+  <p id="soboczenski-2018-bayesian-exoplanet_abstract" class="pre pre-scrollable collapse">Over the past decade, the study of extrasolar planets has evolved rapidly from plain detection and identification to comprehensive categorization and characterization of exoplanet systems and their atmospheres. Atmospheric retrieval, the inverse modeling technique used to determine an exoplanetary atmosphere’s temperature structure and composition from an observed spectrum, is both time-consuming and compute-intensive, requiring complex algorithms that compare thousands to millions of atmospheric models to the observational data to find the most probable values and associated uncertainties for each model parameter. For rocky, terrestrial planets, the retrieved atmospheric composition can give insight into the surface fluxes of gaseous species necessary to maintain the stability of that atmosphere, which may in turn provide insight into the geological and/or biological processes active on the planet. These atmospheres contain many molecules, some of them biosignatures, spectral fingerprints indicative of biological activity, which will become observable with the next generation of telescopes. Runtimes of traditional retrieval models scale with the number of model parameters, so as more molecular species are considered, runtimes can become prohibitively long. Recent advances in machine learning (ML) and computer vision offer new ways to reduce the time to perform a retrieval by orders of magnitude, given a sufficient data set to train with. Here we present an ML-based retrieval framework called Intelligent exoplaNet Atmospheric RetrievAl (INARA) that consists of a Bayesian deep learning model for retrieval and a data set of 3,000,000 synthetic rocky exoplanetary spectra generated using the NASA Planetary Spectrum Generator. Our work represents the first ML retrieval model for rocky, terrestrial exoplanets and the first synthetic data set of terrestrial spectra generated at this scale.</p>
+  
+
+  <pre id="soboczenski-2018-bayesian-exoplanet_bibtex" class="pre pre-scrollable collapse">@inproceedings{soboczenski-2018-bayesian-exoplanet,
+  title = {Bayesian Deep Learning for Exoplanet Atmospheric Retrieval},
+  author = {Soboczenski, Frank and Himes, Michael D. and O'Beirne, Molly D. and Zorzan, Simone and Baydin, Atılım Güneş and Cobb, Adam D. and Gal, Yarin and Angerhausen, Daniel and Mascaro, Massimo and Arney, Giada N. and Domagal-Goldman, Shawn D.},
+  booktitle = {Third workshop on Bayesian Deep Learning (NeurIPS 2018), Montreal, Canada},
+  year = {2018}
+}
+</pre>
+
+</span>
+
+</li></ol>
+<ol class="bibliography"><li><span id="soboczenski-2020-inara">Soboczenski, Frank, Michael D. Himes, Molly D. O’Beirne, Simone Zorzan, Atılım Güneş Baydin, Adam D. Cobb, Yarin Gal, Daniel Angerhausen, Massimo Mascaro, Geronimo Villanueva, Shawn D. Domagal-Goldman, and Giada N. Arney. 2020. “INARA: A Bayesian Deep Learning Framework for Exoplanet Atmospheric Retrieval.” In <i>Second AI and Data Science Workshop for Earth and Space Sciences, Jet Propulsion Laboratory (NASA JPL), Pasadena, CA, United States, March 24–26, 2020</i>. https://datascience.jpl.nasa.gov/aiworkshop.</span>
+
+<span id="soboczenski-2020-inara_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#soboczenski-2020-inara_abstract" data-toggle="collapse" href="#soboczenski-2020-inara" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#soboczenski-2020-inara_bibtex" data-toggle="collapse" href="#soboczenski-2020-inara" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'soboczenski-2020-inara']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="soboczenski-2020-inara_abstract" class="pre pre-scrollable collapse">Determining an exoplanet’s atmospheric properties from an observed spectrum (atmospheric retrieval) is a time-consuming and compute-intensive inverse modeling technique. They require complex algorithms that generate many atmospheric models and compare their simulated spectra to the observational data to find the most probable values and associated uncertainties for each model parameter. Retrieval may be the first method to find extraterrestrial life by remotely detecting biosignatures, atmospheric species indicative of biological activity. The work presented here is a result of the NASA Frontier Development Lab Astrobiology Team II. We present an ML-based retrieval framework called Intelligent exoplaNet Atmospheric RetrievAl (INARA) that consists of a Bayesian deep learning model for retrieval and a data set of 3,000,000 synthetic rocky exoplanetary spectra generated using approximately 2,000 high-end VMs and instances of the NASA Planetary Spectrum Generator (PSG). The generated dataset encompasses spectra based on a given planetary system model, where we consider F-, G-, K-, and M-type main sequence stars. Observations are simulated using an instrument model of the Large UltraViolet/Optical/InfraRed Surveyor (LUVOIR). Our work represents the first ML retrieval framework for rocky, terrestrial exoplanets and the first synthetic data set of terrestrial spectra generated at this scale.</p>
+  
+
+  <pre id="soboczenski-2020-inara_bibtex" class="pre pre-scrollable collapse">@inproceedings{soboczenski-2020-inara,
+  title = {{INARA}: A {Bayesian} Deep Learning Framework for Exoplanet Atmospheric Retrieval},
+  author = {Soboczenski, Frank and Himes, Michael D. and O’Beirne, Molly D. and Zorzan, Simone and Baydin, Atılım Güneş and Cobb, Adam D. and Gal, Yarin and Angerhausen, Daniel and Mascaro, Massimo and Villanueva, Geronimo and Domagal-Goldman, Shawn D. and Arney, Giada N.},
+  booktitle = {Second AI and Data Science Workshop for Earth and Space Sciences, Jet Propulsion Laboratory (NASA JPL), Pasadena, CA, United States, March 24--26, 2020},
+  year = {2020},
+  url = {https://datascience.jpl.nasa.gov/aiworkshop}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="himes-2020-machine">Himes, Michael D., Adam D. Cobb, Frank Soboczenski, Simone Zorzan, Molly D. O’Beirne, Atılım Güneş Baydin, Yarin Gal, Daniel Angerhausen, Shawn D. Domagal-Goldman, and Giada N. Arney. 2020. “Machine Learning Retrieval of Jovian and Terrestrial Atmospheres.” In <i>American Astronomical Society Meeting #235, Id. 343.01. Bulletin of the American Astronomical Society, Vol. 52, No. 1</i>. https://ui.adsabs.harvard.edu/abs/2020AAS...23534301H/abstract.</span>
+
+<span id="himes-2020-machine_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#himes-2020-machine_abstract" data-toggle="collapse" href="#himes-2020-machine" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#himes-2020-machine_bibtex" data-toggle="collapse" href="#himes-2020-machine" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'himes-2020-machine']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="himes-2020-machine_abstract" class="pre pre-scrollable collapse">Machine learning approaches to atmospheric retrieval offer results comparable to traditional numerical approaches in just seconds, compared to hundreds of compute hours. This opens the possibility for fully-3D retrievals to execute in times comparable to traditional approaches. Recently, we developed plan-net, an ensemble of Bayesian neural networks for atmospheric retrieval; we trained plan-net on synthetic Wide Field Camera 3 (WFC3) hot-Jupiter transmission spectra, applied it to the WFC3 spectrum of WASP-12b, and found results consistent with the literature. Here, we present updates to plan-net and expand its application to our 28-parameter data set of simulated LUVOIR spectra of terrestrial exoplanets generated using the NASA Planetary Spectrum Generator. By including both dense dropout and convolutional layers, we find a significant improvement in accuracy. MH and FS acknowledge the support of NVIDIA Corporation for the donation of the Titan Xp GPUs used for this research. AC is sponsored by the AIMS-CDT and EPSRC. AGB is funded by Lawrence Berkeley National Lab and EPSRC/MURI grant EP/N019474/1.</p>
+  
+
+  <pre id="himes-2020-machine_bibtex" class="pre pre-scrollable collapse">@inproceedings{himes-2020-machine,
+  title = {Machine Learning Retrieval of Jovian and Terrestrial Atmospheres},
+  author = {Himes, Michael D. and Cobb, Adam D. and Soboczenski, Frank and Zorzan, Simone and O’Beirne, Molly D. and Baydin, Atılım Güneş and Gal, Yarin and Angerhausen, Daniel and Domagal-Goldman, Shawn D. and Arney, Giada N.},
+  booktitle = {American Astronomical Society meeting \#235, id. 343.01. Bulletin of the American Astronomical Society, Vol. 52, No. 1},
+  year = {2020},
+  url = {https://ui.adsabs.harvard.edu/abs/2020AAS...23534301H/abstract}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="himes-2019-exoplanetary">Himes, M., A. Cobb, A. Baydin, F. Soboczenski, S. Zorzan, M. O’Beirne, G.N. Arney, S. Domagal-Goldman, D. Angerhausen, and Y. Gal. 2019. “Exoplanetary Atmospheric Retrieval via Bayesian Machine Learning.” In <i>American Astronomical Society Meeting on Extreme Solar Systems IV, Reykjavik, Iceland, August 19–23, 2019</i>. https://sites.northwestern.edu/iceland2019/.</span>
+
+<span id="himes-2019-exoplanetary_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#himes-2019-exoplanetary_abstract" data-toggle="collapse" href="#himes-2019-exoplanetary" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#himes-2019-exoplanetary_bibtex" data-toggle="collapse" href="#himes-2019-exoplanetary" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'himes-2019-exoplanetary']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="himes-2019-exoplanetary_abstract" class="pre pre-scrollable collapse">Atmospheric retrieval, the inverse modeling technique whereby atmospheric properties are inferred from observations, is computationally expensive and time consuming. Recently, machine learning (ML) approaches to atmospheric retrieval have been shown to provide results consistent with traditional approaches in just seconds to minutes. We introduce plan-net, the first ensemble of Bayesian neural networks for atmospheric retrieval. Our novel likelihood function captures parameter correlations, improving uncertainty estimations over standard likelihood functions common in ML. We replicate the results of Marquez-Neila et al. (2018), and we demonstrate plan-net’s improvement in accuracy over their random forest regression tree when applied to their synthetic data set of hot Jupiter WFC3 transmission spectra. We apply a trained plan-net ensemble to the transmission spectrum of WASP-12b and find results generally consistent with the literature. We also apply plan-net to our data set of over 3 million synthetic terrestrial exoplanet spectra generated using the NASA Planetary Spectrum Generator.</p>
+  
+
+  <pre id="himes-2019-exoplanetary_bibtex" class="pre pre-scrollable collapse">@inproceedings{himes-2019-exoplanetary,
+  title = {Exoplanetary Atmospheric Retrieval via Bayesian Machine Learning},
+  author = {Himes, M. and Cobb, A. and Baydin, A. and Soboczenski, F. and Zorzan, S. and O'Beirne, M. and Arney, G.N. and Domagal-Goldman, S. and Angerhausen, D. and Gal, Y.},
+  booktitle = {American Astronomical Society Meeting on Extreme Solar Systems IV, Reykjavik, Iceland, August 19--23, 2019},
+  year = {2019},
+  url = {https://sites.northwestern.edu/iceland2019/}
+}
+</pre>
+
+</span>
+
+</li>
+<li><span id="obeirne-2019-inara">O’Beirne, Molly D., Michael D. Himes, Frank Soboczenski, Simone Zorzan, Adam Cobb, Atılım Güneş Baydin, Yarin Gal, Daniel Angerhausen, Massimo Mascaro, Giada N. Arney, and Shawn D. Domagal-Goldman. 2019. “INARA: A Machine Learning Retrieval Framework with a Data Set of 3 Million Simulated Exoplanet Atmospheric Spectra.” In <i>Astrobiology Science Conference (AbSciCon 2019), Bellevue, Washington, June 24–28, 2019</i>. https://agu.confex.com/agu/abscicon19/meetingapp.cgi/Paper/481266.</span>
+
+<span id="obeirne-2019-inara_materials">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#obeirne-2019-inara_abstract" data-toggle="collapse" href="#obeirne-2019-inara" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#obeirne-2019-inara_bibtex" data-toggle="collapse" href="#obeirne-2019-inara" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'obeirne-2019-inara']); return false;">Bib</a></li>
+
+
+    
+  </ul>
+
+  
+  <p id="obeirne-2019-inara_abstract" class="pre pre-scrollable collapse">Traditional approaches for determining the atmospheres of exoplanets from telescopic spectral data (i.e., atmospheric retrievals) involve time-consuming and compute-intensive Bayesian sampling methods, requiring a compromise between physical and chemical realism and overall computational feasibility. For rocky, terrestrial exoplanets, the retrieved atmospheric composition can give insight into the surface fluxes of gaseous species necessary to maintain the stability of that atmosphere, which may in turn provide insight into the geological and/or biological processes active on the planet. Machine learning (ML) offers a feasible and reliable approach to expedite the process of atmospheric retrievals; however, ML models require a large data set to train on. Here we present a data set of 3,000,000 simulated atmospheric spectra of rocky, terrestrial exoplanets generated across a broad parameter space of stellar and planetary properties, including 12 molecular species relevant for determining extant life. We then introduce INARA (Intelligent exoplaNet Atmospheric RetrievAl), our ML-based atmospheric retrieval framework. In a matter of seconds, INARA is capable of retrieving accurate concentrations of 12 molecular atmospheric constituents when given an observed spectrum. Our work represents the first large-scale simulated spectral data set and first atmospheric retrieval ML model for rocky, terrestrial exoplanets.</p>
+  
+
+  <pre id="obeirne-2019-inara_bibtex" class="pre pre-scrollable collapse">@inproceedings{obeirne-2019-inara,
+  title = {INARA: A Machine Learning Retrieval Framework with a Data Set of 3 Million Simulated Exoplanet Atmospheric Spectra},
+  author = {O’Beirne, Molly D. and Himes, Michael D. and Soboczenski, Frank and Zorzan, Simone and Cobb, Adam and Baydin, Atılım Güneş and Gal, Yarin and Angerhausen, Daniel and Mascaro, Massimo and Arney, Giada N. and Domagal-Goldman, Shawn D.},
+  booktitle = {Astrobiology Science Conference (AbSciCon 2019), Bellevue, Washington, June 24--28, 2019},
+  year = {2019},
+  url = {https://agu.confex.com/agu/abscicon19/meetingapp.cgi/Paper/481266}
+}
+</pre>
+
+</span>
+
+</li></ol>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>We thank Chloe Fisher for making the data set from Marquez-Neila et al. (2018) publicly available on GitHub upon request. Adam D. Cobb is sponsored by the AIMS CDT (http://aims.robots.ox.ac.uk) and the EPSRC (https://www.epsrc.ac.uk). Frank Soboczenski gratefully acknowledges the support of NVIDIA Corporation with the donation of the Titan Xp GPU used for this research (GPU No 900-1G611-2530-000). A.G. Baydin is funded by Lawrence Berkeley National Lab and EPSRC/MURI grant EP/N019474/1. We thank NASA FDL (http://www.frontierdevelopmentlab.org/) and SETI (https://www.seti.org) for making this collaboration possible.</p>]]></content><author><name>Atılım Güneş Baydin</name><email>gunes@robots.ox.ac.uk</email></author></entry></feed>

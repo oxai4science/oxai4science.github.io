@@ -1,0 +1,194 @@
+@inproceedings{berger-2023-solar,
+ title={Incorporating Direct EUV Irradiance from Solar Images into Thermospheric Density Modelling with Machine Learning},
+  author={Thomas E. Berger and Shreshth Malik and James Walsh and Giacomo Acciarini and {Atılım Güneş} Baydin},
+  booktitle = {American Geophysical Union (AGU) Annual Meeting, December 11--15, 2023},
+  year = {2023},
+  abstract = {Accurately estimating spacecraft location is of crucial importance for a variety of safety-critical tasks in low-Earth orbit (LEO), including satellite collision avoidance and re-entry. The major source of uncertainty in LEO trajectory calculations is the variable drag force imposed by changes in thermospheric density in response to space weather. Current empirical and physics-based models, as well as many machine learning (ML) approaches, rely on daily solar irradiance and geophysical activity proxy indices as inputs, limiting their ability to capture the dynamic complexity of the system response to transitory solar flares and geomagnetic storms. NASA’s Solar Dynamics Observatory (SDO) has been continuously capturing data since 2010, providing high resolution extreme ultraviolet (EUV) and magnetic field images that have recently been pre-processed into a ML-ready dataset (SDOML). In this work, based on a previously developed ML thermospheric density model (Karman), we process the SDOML images via a sigma-variational autoencoder to include embeddings of 12 EUV and magnetic field channels at a nominal 6-minute cadence. The model uses these as base-level irradiance drivers instead of the proxy indices, greatly improving temporal resolution and enabling accurate nowcasting of the short-term density response to solar flares. We validate the model against CHAMP, GRACE, and GOCE thermospheric density measurements to show that it achieves mean absolute percentage error values comparable to or better than existing empirical models such as JB08 and MSIS.},
+  url = {https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1403802}
+}
+
+@inproceedings{mateogarcia-2023-onboardcloud,
+ title={Onboard cloud detection and atmospheric correction with deep learning emulators},
+  author={Gonzalo {Mateo-Garcìa} and Cesar Aybar and Vít Růžička and Giacomo Acciarini and Atılım Güneş Baydin and Gabriele Meoni and Nicolas Longépe and James Parr and Luis {Gómez-Chova}},
+  booktitle = {International Geoscience and Remote Sensing Symposium, July 16 -- 21, 2023, Pasadena, CA},
+  year = {2023},
+  url = {https://2023.ieeeigarss.org/}
+}
+
+@inproceedings{mehta-2022-simulation,
+ title={Simulating Social Networks and Disinformation},
+  author={Swapneel Mehta and Bogdan State and Richard Bonneau and Jonathan Nagler and Philip Torr and Atılım Güneş Baydin},
+  booktitle = {Misinformation Village co-hosted by {MisinfoCon}, {DEFCON} 30, August 12--13, Las Vegas, NV, USA},
+  year = {2022},
+  url = {https://defcon.misinfocon.com/}
+}
+
+@inproceedings{gong-2022-molecular,
+ title={Molecular Complexity to Biosignatures: A Machine Learning Pipeline that Connects Mass Spectrometry to Molecular Synthesis and Reaction Networks},
+  author={Jian Gong and Aaron C. Bell and Timothy Gebhard and Jaden J.A. Hastings and Atılım Güneş Baydin and Kimberly Warren-Rhodes and Michael Phillips and Matthew Fricke and Nathalie A. Cabrol and Scott A. Sandford and Massimo Mascaro},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 12--16, 2022},
+  year = {2022},
+  abstract = {The search for life beyond Earth is complicated by the lack of a consensus on what life is – especially when considering potential forms of life not resembling anything known on Earth. Agnostic means of assessing samples for evidence of life are needed to address this challenge. Information encoded within the atoms and bonds of a molecule can be used to generate agnostic metrics of complexity. The distributions of complexity metrics for chemical mixtures involving biological processes have been hypothesized to be different from those produced by abiotic or prebiotic chemical reactions (Marshall et al. 2021). Complexity metrics, rooted in Shannon Entropy (Bertz 1981; Böttcher 2016) and Assembly Theory (Marshall et al., 2017, 2021), rely on knowledge of the precise structures of molecules and time-consuming human-expert-based analysis decoupled from real-time instrumental measurements onboard robotic missions. In addition, leveraging these metrics requires intensive – often intractable – computations that are infeasible for real-time, on-probe investigations. We propose light-weight, flexible neural network models, trainable from publicly available datasets that can be employed to predict molecular structures and their complexity metrics from mass spectra. We show that with careful selection of datasets, the ML-based approach can learn characteristics of experimental data and digital representation of molecules. This enables rapid, accurate prediction of molecular complexity from mass spectra. Such data pipelines may open new doors for critical robotic missions where autonomous decision-making is required, empowering rapid biosignature screening tasks and in situ fingerprinting of prebiotic molecular reaction networks.},
+  url = {https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1186669}
+}
+
+@inproceedings{hastings-2022-molecular,
+ title={Modeling Molecular Complexity: Building a Novel Multidisciplinary Machine Learning Framework to Understand Molecular Synthesis and Signatures},
+  author={Jaden J.A. Hastings and Aaron C. Bell and Timothy Gebhard and Jian Gong and Atılım Güneş Baydin and Matthew Fricke and Massimo Mascaro and Michael Phillips and Kimberly Warren-Rhodes and Nathalie A. Cabrol},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 12--16, 2022},
+  year = {2022},
+  abstract = {The ability to analyze and compare the structure of every known molecule, let alone molecules not yet encountered, and be able to predict all the possible synthesis pathways to be able to build ever more complex molecules at the atomic scale is a bottleneck spanning multiple disciplines. These span the fundamental and applied sciences – from organic synthesis of novel pharmaceuticals to detecting biosignatures on distant planets. Fundamental to this effort is the identification and standardization of key features of complexity and generating datasets optimized for machine learning methods. Connecting molecules and their complexity measures within vast chemical synthesis and reaction networks is similarly promising.The Molecular Complexity Consortium (MCC) – a working group of subject matter experts across academic, government, and commercial sectors – advances both applied and theoretical research in molecular complexity. We argue key shared objectives for unlocking the vast potential of ML-driven modeling of molecular complexity: the requisite standardization of features, generation of well-curated training datasets, and optimization of computation by ML method selection. Here we offer an overview of the field of molecular complexity, from methods of mathematical modeling to forming a notion of molecular signatures, and pose a call to action as we seek out new avenues for collaboration in this exciting emergent field.},
+  url = {https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1200601}
+}
+
+@inproceedings{salvatelli-2021-selfsupervised,
+ title={Self-supervised Deep Learning for Reducing Data Transmission Needs in Multi-Wavelength Space Instruments: a case study based on the Solar Dynamics Observatory},
+  author={Valentina Salvatelli and Luiz Fernando {Guedes dos Santos} and Mark Cheung and Souvik Bose and Brad Neuberg and Miho Janvier and Meng Jin and Yarin Gal and Atılım Güneş Baydin},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 13--17, 2021},
+  year = {2021},
+  abstract = {The Solar Dynamics Observatory(SDO), a NASA mission that has been producing terabytes of observational data every day for more than ten years, has been used as a use-case to demonstrate the potential of particular methodologies and pave the way for future deep-space mission planning. In deep space, multispectral high-resolution missions like SDO would face two major challenges: 1- a low rate of telemetry 2- constrained hardware (i.e.limited number of observational channels). This project investigates the potential, and the limitations, of using a deep learning approach to reduce data transmission needs and data latency of a multi-wavelength satellite instrument. Namely, we use multi-channel data from the SDO's Atmospheric Imaging Assembly(AIA) to show how self-supervised deep learning models can be used to synthetically produce, via image-to-image translation, images of the solar corona, and how this can be leveraged to reduce the downlink requirements of similar space missions. In this regards, we focus on encoder-decoder based architectures and we study how morphological traits and brightness of the solar surface affects the neural network predictions. We also investigate the limitations that these virtual observations might have and the impact on science. Finally we discuss how the method we propose can be used to create a data transmission schema that is both efficient and automated.},
+  url = {https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/984065}
+}
+
+@article{munozjaramillo-2021-crosscalibration,
+ title={Cross-calibration, super-resolution, and uncertainty estimation of the conversion of {MDI} and {GONG} to {HMI} full-disk magnetograms using deep learning},
+  author={Andrés {Muñoz-Jaramillo} and Anna Jungbluth and Xavier Gitiaux and Paul J. Wright and Carl Shneider and Shane A. Maloney and Freddie Kalaitzis and {Atılım Güneş} Baydin and Yarin Gal and Michel Deudon},
+  journal = {Bulletin of the AAS},
+	number = {6},
+  volume = {53},
+	year = {2021},
+	month = {jun 18},
+  abstract = {Over the past 50 years, a variety of instruments have obtained images of the Sun's magnetic field (magnetograms) to study its origin and evolution. While improvements in instrumentation have led to breakthroughs in our understanding of physical phenomena, differences between subsequent instruments such as resolution, noise, and saturation levels all introduce inhomogeneities into long-term data sets. This has proven to be an insurmountable obstacle for research applications that require high-resolution and homogeneous data spanning time frames longer than the lifetime of a single instrument. Here we show that deep-learning-based super-resolution techniques can successfully up-sample and homogenize solar magnetic field images obtained both by space and ground-based instruments. In particular, we show the results of cross-calibrating and super-resolving MDI and GONG magnetograms to the characteristics of HMI. We also discuss the importance of agreeing on a standardized set of training, validation, and test data, as well as metrics that enable the community to benchmark different approaches to collectively and quantitatively identify the best practices. This includes distributing test data within the broad heliophysics community. Finally, we discuss our approach for making an empirical estimation of uncertainty and the importance that uncertainty estimation plays in the credibility and usefulness of deep learning applications in heliophysics.},
+  url = {https://baas.aas.org/pub/2021n6i123p03}
+}
+
+@inproceedings{himes-2021-surrogate,
+ title={Neural Network Surrogate Models for Fast Bayesian Inference: Application to Exoplanet Atmospheric Retrieval},
+  author={Michael D. Himes and Joseph Harrington and Adam D. Cobb and Frank Soboczenski and Molly D. O'Beirne and Simone Zorzan and David C. Wright and Zacchaeus Scheffer and Shawn D. Domagal-Goldman and Giada N. Arney and Atılım Güneş Baydin},
+  booktitle = {Applications of Statistical Methods and Machine Learning in the Space Sciences, 17--21 May 2021},
+  year = {2021},
+  abstract = {Exoplanet atmospheres are characterized via retrieval, the inverse modeling method where atmospheric properties are determined based on the exoplanet's observed spectrum.  To determine the posterior probabilities of model parameters consistent with the data, a Bayesian framework proposes atmospheric models, calculates the theoretical spectra corresponding to the models via radiative transfer (RT), and compares the spectra with the observed spectrum.  This typically requires thousands to millions of evaluated models, with each taking on the order of a second for RT.  While recent machine-learning approaches to retrieval reduce the compute cost to minutes or less, they do so at the cost of reduced posterior accuracy.  Here we present a novel machine-learning assisted retrieval approach which replaces the RT code with a neural network surrogate model to significantly reduce the compute cost of RT simulations, while retaining the Bayesian framework.  Using emission data of HD 189733 b, we demonstrate close agreement between this method and that of the Bayesian Atmospheric Radiative Transfer (BART) code (mean Bhattacharyya coefficient of 0.9925 between 1D marginalized posteriors).  This approach is ~9x faster per parallel evaluation than BART when using an AMD EPYC 7402P central processing unit (CPU), and it is 90--180x faster per parallel evaluation when using an NVIDIA Titan Xp graphics processing unit than BART on that CPU.},
+}
+
+@inproceedings{wright-2020-super2,
+ title={Super-resolution of Solar Magnetograms},
+  author={Paul James Wright and Xavier Gitiaux and Anna Jungbluth and Shane Maloney and Carl Shneider and Alfredo Kalaitzis and Atılım Güneş Baydin and Michel Deudon and Yarin Gal and Andres Munoz-Jaramillo},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 1--17, 2020},
+  year = {2020},
+  abstract = {Over the past 50 years, a variety of instruments have obtained images of the Sun’s magnetic field (magnetograms) to study its origin and evolution. While improvements in instrumentation have led to breakthroughs in our understanding of physical phenomena, differences between subsequent instruments such as resolution, noise, and saturation levels all introduce inhomogeneities into long-term data sets. This poses a significant issue for research applications that require high-resolution and homogeneous data spanning time frames longer than the lifetime of a single instrument. As super-resolution is an ill-posed problem, multiple super-resolution outputs can explain a low-resolution input. Classical methods, such as bicubic upsampling, use only the information contained in the low-resolution image. However, in recent years it has been shown that a learning-based approach can constrain the non-trivial solution space by exploiting regularities within a specific distribution of images. In this work, we cross-calibrate and super-resolve magnetic field data obtained by the Michelson Doppler Imager (MDI; 1024 x 1024 px) and the Helioseismic and Magnetic Imager (HMI; 4096 x 4096 px). These instruments overlap from 2010 to 2011, resulting in approximately 9000 co-temporal observations of the same physical structures. Our deep learning model is trained on a subset of the overlapping data after initial pre-processing to correct for temporal and orbital differences between the instruments. We evaluate the quality of the predictive output of the model with a series of performance metrics. These metrics include the distribution of the magnetic field and physical properties captured by the signed/unsigned field. Our approach also needs to quantify the certainty of predictions to be valuable to scientists. To address this, we estimate the posterior distribution of the super-resolved magnetic field by introducing Monte Carlo dropouts on each convolutional layer.},
+  url = {https://agu.confex.com/agu/fm20/webprogram/Paper707966.html}
+}
+
+@inproceedings{dossantos-2020-multi,
+ title={Multi-Channel Auto-Calibration for the Atmospheric Imaging Assembly instrument with Deep Learning},
+  author={Luiz Fernando {Guedes dos Santos} and Souvik Bose and Valentina Salvatelli and Brad Neuberg and Mark Cheung and Miho Janvier and Meng Jin and Yarin Gal and Paul Boerner and Atılım Güneş Baydin},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, December 1--17, 2020},
+  year = {2020},
+  abstract = {Solar activity plays a major role in influencing the interplanetary medium and space-weather around us. Understanding the complex mechanisms that govern such a dynamic phenomenon is important and challenging. Remote-sensing instruments onboard heliophysics missions can provide a wealth of information on the Sun’s activity, especially via the measurement of magnetic fields and the emission of light from the multi-layered solar atmosphere. NASA currently operates the Heliophysics System Observatory (HSO) that consists of a fleet of satellites constantly monitoring the Sun, its extended atmosphere, and space environments around the Earth and other planets of the solar system. One of the flagship missions of the HSO is NASA’s Solar Dynamics Observatory (SDO). Launched in 2010, it consists of three instruments: the Atmospheric Imaging Assembly (AIA), the Helioseismic & Magnetic Imager (HMI), and the EUV Variability Experiment (EVE). The SDO has been generating terabytes of observational data every day and has constantly monitored theSun with the highest temporal and spatial resolution for full-disk observations. Unfortunately, the (E)UV instruments in orbit suffer time-dependent degradation, which reduces instrument sensitivity. Accurate calibration for EUV instruments currently depends on sounding rockets (e.g., for SDO/EVE and SDO/AIA) infrequent. Since SDO is in a geosynchronous orbit, sounding rockets can be used for calibration, but calibration experiments may not be practical for deep space missions (e.g., STEREO satellites). In the present work, we develop a neural network that auto-calibrates the SDO/AIA channels, correcting sensitivity degradation, by exploiting spatial patterns in multi-wavelength observations to arrive at a self-calibration (E)UV imaging instruments. This removes a major impediment to developing future HSO missions that can deliver solar observations from different vantagepoints beyond Earth-orbit.},
+  url = {https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=58-34-12-15-E8-F1-7E-63-04-54-FB-78-A5-C9-FF-B4&pdfprint=true&guestview}
+}
+
+@inproceedings{belavin-2020-blackbox,
+ title={Black-Box Optimization with Local Generative Surrogates},
+  author={Vladislav Belavin and Sergey Shirobokov and Michael Aaron Kagan and Andrey Ustyuzhanin and Atılım Güneş Baydin},
+  booktitle = {4th IML Machine Learning Workshop, 19--22 October 2020, Inter-experimental Machine Learning (IML) Working Group, CERN},
+  year = {2020},
+  url = {https://indico.cern.ch/event/852553/}
+}
+
+@inproceedings{chopra-2020-exoatmosgrid,
+ title={{EXO-ATMOS}: A scalable grid of hypothetical planetary atmospheres},
+  author={Chopra, Aditya and Bell, Aaron and Fawcett, William and Talebi, Rodd and Angerhausen, Daniel and Baydin, Atılım Güneş and Berea, Anamaria and Cabrol, Nathalie A. and Kempes, Chris and Mascaro, Massimo},
+  booktitle = {Europlanet Science Congress 2020},
+  year = {2020},
+  volume = {14},
+  pages = {EPSC2020-664},
+  abstract = {As part of the NASA Frontier Development Lab, we implemented a parallelized cloud-based exploration strategy to better understand the statistical distributions and properties of potential planetary atmospheres. Starting with a modern-day Earth atmosphere, we iteratively and incrementally simulated a range of atmospheres to infer the landscape of the multi-parameter space, such as the abundances of biological mediated gases that would yield stable (non-runaway) planetary atmospheres on Earth-like planets around solar-type stars. Our current dataset comprises of 124,314 simulated models of earth-like exoplanet atmospheres and is available publicly on the NASA Exoplanet Archive. Our scalable approach of analysing atmospheres could also help interpret future observations of planetary atmospheres by providing estimates of atmospheric gas fluxes and temperatures as a function of altitude, and thereby enable high-throughput first-order assessment of the potential habitability of exoplanetary surfaces.},
+  url = {https://meetingorganizer.copernicus.org/EPSC2020/EPSC2020-664.html}
+}
+
+@inproceedings{wright-2020-super1,
+ title={Super-resolution of {MDI} (and {GONG}) Magnetograms},
+  author={Paul Wright and Xavier Gitiaux and Anna Jungbluth and Shane Maloney and Carl Shneider and Alfredo Kalaitzis and Michel Deudon and Atılım Güneş Baydin and Yarin Gal and Andres Munoz-Jaramillo},
+  booktitle = {50th Anniversary Meeting of the Solar Physics Division (SPD) of the American Astronomical Society (AAS)},
+  year = {2020},
+  abstract = {Over the past 50 years, a variety of instruments have obtained images of the Sun’s magnetic field (magnetograms) to study its origin and evolution. While improvements in instrumentation have led to breakthroughs in our understanding of physical phenomena, differences between subsequent instruments such as resolution, noise, and saturation levels all introduce inhomogeneities into long-term data sets. This poses a significant issue for research applications that require high-resolution and homogeneous data spanning time frames longer than the lifetime of a single instrument.As super-resolution is an ill-posed problem, multiple super-resolution outputs can explain a low-resolution input. Classical methods, such as bicubic upsampling, use only the information contained in the low-resolution image. However, in recent years it has been shown that a learning-based approach can constrain the non-trivial solution space by exploiting regularities within a specific distribution of images.In this work, we cross-calibrate and super-resolve magnetic field data obtained by the Michelson Doppler Imager (MDI); 1024 x 1024 px) and the Helioseismic and Magnetic Imager (HMI; 4096 x 4096 px). These instruments overlap from 2010 to 2011, resulting in approximately 9000 co-temporal observations of the same physical structures. Our deep learning model is trained on a subset of the overlapping data after initial pre-processing to correct for temporal and orbital differences between the instruments.We evaluate the quality of the predictive output of the model with a series of performance metrics. These metrics include the distribution of the magnetic field and physical properties captured by the signed/unsigned field. Our approach also needs to quantify the certainty of predictions to be valuable to scientists. To address this, we estimate the posterior distribution of the super-resolved magnetic field by introducing Monte Carlo dropouts on each convolutional layer.},
+  url = {https://aas.org/meetings/spd51}
+}
+
+@inproceedings{soboczenski-2020-inara,
+ title={{INARA}: A {Bayesian} Deep Learning Framework for Exoplanet Atmospheric Retrieval},
+  author={Frank Soboczenski and Michael D. Himes and Molly D. O’Beirne and Simone Zorzan and Atılım Güneş Baydin and Adam D. Cobb and Yarin Gal and Daniel Angerhausen and Massimo Mascaro and Geronimo Villanueva and Shawn D. Domagal-Goldman and Giada N. Arney},
+  booktitle = {Second AI and Data Science Workshop for Earth and Space Sciences, Jet Propulsion Laboratory (NASA JPL), Pasadena, CA, United States, March 24--26, 2020},
+  year = {2020},
+  abstract = {Determining an exoplanet's atmospheric properties from an observed spectrum (atmospheric retrieval) is a time-consuming and compute-intensive inverse modeling technique. They require complex algorithms that generate many atmospheric models and compare their simulated spectra to the observational data to find the most probable values and associated uncertainties for each model parameter. Retrieval may be the first method to find extraterrestrial life by remotely detecting biosignatures, atmospheric species indicative of biological activity. The work presented here is a result of the NASA Frontier Development Lab Astrobiology Team II. We present an ML-based retrieval framework called Intelligent exoplaNet Atmospheric RetrievAl (INARA) that consists of a Bayesian deep learning model for retrieval and a data set of 3,000,000 synthetic rocky exoplanetary spectra generated using approximately 2,000 high-end VMs and instances of the NASA Planetary Spectrum Generator (PSG). The generated dataset encompasses spectra based on a given planetary system model, where we consider F-, G-, K-, and M-type main sequence stars. Observations are simulated using an instrument model of the Large UltraViolet/Optical/InfraRed Surveyor (LUVOIR). Our work represents the first ML retrieval framework for rocky, terrestrial exoplanets and the first synthetic data set of terrestrial spectra generated at this scale.},
+  url = {https://datascience.jpl.nasa.gov/aiworkshop}
+}
+
+@inproceedings{shirobokov-2020-differentiating,
+ title={Differentiating the Black-Box: Optimization with Local Generative Surrogates},
+  author={Sergey Shirobokov and Vladislav Belavin and Michael Kagan and Andrey Ustyuzhanin and Atılım Güneş Baydin},
+  booktitle = {Applied Machine Learning Days (AMLD) EPFL, Lausanne, Switzerland, January 25--29, 2020},
+  year = {2020},
+}
+
+@inproceedings{himes-2020-machine,
+ title={Machine Learning Retrieval of Jovian and Terrestrial Atmospheres},
+  author={Michael D. Himes and Adam D. Cobb and Frank Soboczenski and Simone Zorzan and Molly D. O’Beirne and Atılım Güneş Baydin and Yarin Gal and Daniel Angerhausen and Shawn D. Domagal-Goldman and Giada N. Arney},
+  booktitle = {American Astronomical Society meeting \#235, id. 343.01. Bulletin of the American Astronomical Society, Vol. 52, No. 1},
+  year = {2020},
+  abstract = {Machine learning approaches to atmospheric retrieval offer results comparable to traditional numerical approaches in just seconds, compared to hundreds of compute hours. This opens the possibility for fully-3D retrievals to execute in times comparable to traditional approaches. Recently, we developed plan-net, an ensemble of Bayesian neural networks for atmospheric retrieval; we trained plan-net on synthetic Wide Field Camera 3 (WFC3) hot-Jupiter transmission spectra, applied it to the WFC3 spectrum of WASP-12b, and found results consistent with the literature. Here, we present updates to plan-net and expand its application to our 28-parameter data set of simulated LUVOIR spectra of terrestrial exoplanets generated using the NASA Planetary Spectrum Generator. By including both dense dropout and convolutional layers, we find a significant improvement in accuracy. MH and FS acknowledge the support of NVIDIA Corporation for the donation of the Titan Xp GPUs used for this research. AC is sponsored by the AIMS-CDT and EPSRC. AGB is funded by Lawrence Berkeley National Lab and EPSRC/MURI grant EP/N019474/1.},
+  url = {https://ui.adsabs.harvard.edu/abs/2020AAS...23534301H/abstract}
+}
+
+@inproceedings{cheung-2019-auto,
+ title={Auto-calibration and reconstruction of {SDO}’s Atmospheric Imaging Assembly channels with Deep Learning},
+  author={Mark Cheung and Luiz Fernando {Guedes dos Santos} and Souvik Bose and Brad Neuberg and Valentina Salvatelli and Atılım Güneş Baydin and Miho Janvier and Meng Jin},
+  booktitle = {American Geophysical Union (AGU) Fall Meeting, San Francisco, CA, United States, December 9--13, 2019},
+  year = {2019},
+  abstract = {Solar activity has a major role in influencing space weather and the interplanetary medium. Understanding the complex mechanisms that govern such a dynamic phenomenon is important and challenging. Remote-sensing instruments on board of heliophysics missions can provide a wealth of information on the Sun's activity, especially via the measurement of magnetic fields and the emission of light from the multi-layered Sun's atmosphere. Ever since its launch in 2010, the observations by NASA’s Solar Dynamics Observatory (SDO) generates terabytes of observational data every day and has constantly monitored the Sun 24x7 with the highest time cadence and spatial resolution for full-disk observations. Using the enormous amount of data SDO provides, this project, developed at the NASA’s Frontier Development Lab (FDL 2019), focuses on algorithms that enhance our understanding of the Sun, as well as enhance the observation potential of present and future heliophysics missions with the aid of machine learning. In the present work, we use deep learning to increase the capabilities of NASA’s SDO and focus primarily on two aspects: (1) develop a neural network that auto-calibrates the SDO-AIA channels, which suffer from steady degradation over time; and (2) develop a “virtual telescope” that enlarges the missions possibilities by synthetically generating desired EUV channels derived from actual physical equipment flown on other mission. Towards this end, we use a deep neural network structured as an encoder-decoder to artificially generate images in different wavelengths from a limited number of observations. This approach can also improve other existing as well as the concept development of future missions that do not have as many observing instruments as SDO.},
+  url = {https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/628427}
+}
+
+@inproceedings{cheung-2019-cloud,
+  title = {Cloud Computing at NASA's Frontier Development Lab},
+  author = {Mark Cheung and Andrés Munoz-Jaramillo and Paul Wright and Asti Bhatt and Ignacio López-Francos and Atılım Güneş Baydin and Piotr Bilinski and Daniel Angerhausen and Miho Janvier},
+  booktitle = {Next Generation Cloud Research Infrastructure, Princeton, NJ, United States, November 11--12, 2019},
+  year = {2019},
+  abstract = {NASA's Frontier Development Lab (FDL) is a research accelerator supported by NASA, the SETI Institute and industry partners. Each summer, FDL brings together teams of domain experts and machine learning scientists / engineers to work intensively for eight weeks to tackle some of the biggest challenges in space science, space exploration, and planetary protection. FDL solutions often require the training and deployment of deep neural networks, which are typically carried out on commercially available cloud compute infrastructure contributed by industry partners such as Google Cloud, Intel, IBM and NVIDIA. While FDL teams are co-located during the summer, collaborations persist for many more months, resulting in refereed journal, conference, and workshop publications and/or presentations. In this talk, the mentors of teams at NASA FDL and FDL Europe* will present case studies of how FDL teams use cloud storage and compute technologies for data preparation, rapid prototyping, and for scaling scientific and machine learning workflows to hundreds and thousands of machines . We also discuss how FDL teams use online tools (e.g., GitLab, Slack, Google Docs, Dropbox Papers) to facilitate effective remote collaboration. The domain areas covered in our case studies include astrobiology, exoplanet detection, space weather, lunar exploration and astronaut health monitoring.},
+  url = {https://sites.google.com/view/workshop-on-cloud-cri}
+}
+
+@inproceedings{himes-2019-exoplanetary,
+ title={Exoplanetary Atmospheric Retrieval via Bayesian Machine Learning},
+  author={M. Himes and A. Cobb and A. Baydin and F. Soboczenski and S. Zorzan and M. O'Beirne and G.N. Arney and S. Domagal-Goldman and D. Angerhausen and Y. Gal},
+  booktitle = {American Astronomical Society Meeting on Extreme Solar Systems IV, Reykjavik, Iceland, August 19--23, 2019},
+  year = {2019},
+  abstract = {Atmospheric retrieval, the inverse modeling technique whereby atmospheric properties are inferred from observations, is computationally expensive and time consuming. Recently, machine learning (ML) approaches to atmospheric retrieval have been shown to provide results consistent with traditional approaches in just seconds to minutes. We introduce plan-net, the first ensemble of Bayesian neural networks for atmospheric retrieval. Our novel likelihood function captures parameter correlations, improving uncertainty estimations over standard likelihood functions common in ML. We replicate the results of Marquez-Neila et al. (2018), and we demonstrate plan-net's improvement in accuracy over their random forest regression tree when applied to their synthetic data set of hot Jupiter WFC3 transmission spectra. We apply a trained plan-net ensemble to the transmission spectrum of WASP-12b and find results generally consistent with the literature. We also apply plan-net to our data set of over 3 million synthetic terrestrial exoplanet spectra generated using the NASA Planetary Spectrum Generator.},
+  url = {https://sites.northwestern.edu/iceland2019/}
+}
+
+@inproceedings{obeirne-2019-inara,
+ title={INARA: A Machine Learning Retrieval Framework with a Data Set of 3 Million Simulated Exoplanet Atmospheric Spectra},
+  author={Molly D. O’Beirne and Michael D. Himes and Frank Soboczenski and Simone Zorzan and Adam Cobb and Atılım Güneş Baydin and Yarin Gal and Daniel Angerhausen and Massimo Mascaro and Giada N. Arney and Shawn D. Domagal-Goldman},
+  booktitle = {Astrobiology Science Conference (AbSciCon 2019), Bellevue, Washington, June 24--28, 2019},
+  year = {2019},
+  abstract = {Traditional approaches for determining the atmospheres of exoplanets from telescopic spectral data (i.e., atmospheric retrievals) involve time-consuming and compute-intensive Bayesian sampling methods, requiring a compromise between physical and chemical realism and overall computational feasibility. For rocky, terrestrial exoplanets, the retrieved atmospheric composition can give insight into the surface fluxes of gaseous species necessary to maintain the stability of that atmosphere, which may in turn provide insight into the geological and/or biological processes active on the planet. Machine learning (ML) offers a feasible and reliable approach to expedite the process of atmospheric retrievals; however, ML models require a large data set to train on. Here we present a data set of 3,000,000 simulated atmospheric spectra of rocky, terrestrial exoplanets generated across a broad parameter space of stellar and planetary properties, including 12 molecular species relevant for determining extant life. We then introduce INARA (Intelligent exoplaNet Atmospheric RetrievAl), our ML-based atmospheric retrieval framework. In a matter of seconds, INARA is capable of retrieving accurate concentrations of 12 molecular atmospheric constituents when given an observed spectrum. Our work represents the first large-scale simulated spectral data set and first atmospheric retrieval ML model for rocky, terrestrial exoplanets.},
+  url = {https://agu.confex.com/agu/abscicon19/meetingapp.cgi/Paper/481266}
+}
+
+@inproceedings{chopra-2019-exoatmos,
+ title={{EXO-ATMOS}: A Scalable Grid of Hypothetical Planetary Atmospheres},
+  author={Chopra, Aditya and Bell, Aaron and Fawcett, William and Talebi, Rodd and Angerhausen, Daniel and Baydin, Atılım Güneş and Berea, Anamaria and Cabrol, Nathalie A. and Kempes, Chris and Mascaro, Massimo},
+  booktitle = {Astrobiology Science Conference (AbSciCon 2019), Bellevue, Washington, June 24--28, 2019},
+  year = {2019},
+  abstract = {The NASA Frontier Development Laboratory (FDL) is an annual science accelerator that focuses on applying machine learning and large-scale computing to challenges in space science and exploration. During the 2018 FDL program, we implemented a cloud-based strategy to better understand the statistical distributions of habitable planets and life in the universe and lay out an avenue to characterize the potential role of biological regulation of planetary atmospheres. We simulated a range of atmospheres to infer the landscape of the multi-parameter space, such as the abundances of biological mediated gases that would yield stable (non-runaway) planetary atmospheres on Earth-like planets around solar-type stars. The dataset of planetary atmospheres we have generated can be used for training machine learning models to bootstrap the ATMOS code. It is an open-source dataset available for the community to understand distributions of habitability parameters such as surface temperatures and free energy available to life on different classes of atmosphere bearing planets. Our scalable tool, once coupled to a generalized ecosystem model, could help derive estimates of the biological mediated atmospheric gas fluxes and help constrain the type and the extent of exobiology on exoplanets based on the remotely detected atmospheric compositions.},
+  url = {https://agu.confex.com/agu/abscicon19/prelim.cgi/Paper/480996}
+}
+
+@inproceedings{baydin-2015-mloss,
+  author = {Baydin, Atılım Güneş and Pearlmutter, Barak A.},
+  booktitle = {International Conference on Machine Learning (ICML) Workshop on Machine Learning Open Source Software 2015: Open Ecosystems, Lille, France, July 10, 2015},
+  title = {DiffSharp: Automatic Differentiation Library},
+  year = {2015},
+}
